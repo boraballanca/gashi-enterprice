@@ -2,20 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="accb09fc-8b21-49d5-b61d-9999c4f28ac5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/HomeHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/Card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/FAQs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/OurWork.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/Question.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/Reviews.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/SectionHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/Values.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/App.test.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/home.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,7 @@
       <workItem from="1680636049375" duration="5131000" />
       <workItem from="1680980886092" duration="1169000" />
       <workItem from="1680982265522" duration="5360000" />
-      <workItem from="1681120709711" duration="10464000" />
+      <workItem from="1681120709711" duration="14093000" />
     </task>
     <servers />
   </component>

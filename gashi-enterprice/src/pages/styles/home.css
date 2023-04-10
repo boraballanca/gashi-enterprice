@@ -49,3 +49,27 @@
 .home__header-right:hover .home__header-logo{
     filter: blur(5px);
 }
+
+/*OUR WORK*/
+
+.work{
+    margin-top: 4rem;
+}
+.work__wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+.our__work a{
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our__work:hover a{
+    background-color:var(--color-red);
+    color: var(--color-antracite);
+}
