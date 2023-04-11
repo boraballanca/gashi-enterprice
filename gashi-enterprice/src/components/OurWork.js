@@ -10,28 +10,28 @@ export const works = [
         id: 1,
         icon: <MdConstruction/>,
         title: "Program One",
-        info: "This is the day that the lord has made. We will rejoice!",
+        info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
         path: "/work/111"
     },
     {
         id: 2,
         icon: <MdConstruction/>,
         title: "Program Two",
-        info: "This is the day that the lord has made. We will rejoice!",
+        info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
         path: "/work/222"
     },
     {
         id: 3,
         icon: <MdConstruction/>,
         title: "Program Three",
-        info: "This is the day that the lord has made. We will rejoice!",
+        info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
         path: "/work/333"
     },
     {
         id: 4,
         icon: <MdConstruction/>,
         title: "Program Four",
-        info: "This is the day that the lord has made. We will rejoice!",
+        info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
         path: "/work/444"
     }
 ]

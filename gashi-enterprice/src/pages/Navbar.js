@@ -23,7 +23,7 @@ const links = [
     }
 ]
 const Navbar = () => {
-const [isNavShowing, setIsNavShowing]=useState(true);
+const [isNavShowing, setIsNavShowing]=useState(false);
 
 return(
     <nav>

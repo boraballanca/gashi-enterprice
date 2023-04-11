@@ -5,7 +5,7 @@ return(
     <header className={'home__header'}>
         <div className="container home__header-container">
             <div className="home__header-left">
-                <h4>Gashi Enterprise</h4>
+                <h2>Gashi Enterprise</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Aut deleniti, distinctio enim fugiat hic illum itaque labore,
