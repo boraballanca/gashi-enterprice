@@ -1,33 +1,81 @@
+/*=================================HomeHeader*/
 .home__header {
     width: 100vw;
     height: calc(100vh - 3rem);
     display: grid;
     place-items: center;
     margin-top: 3rem;
+    margin-bottom: 5rem;
+
+
+    /*margin-inline: auto;*/
+
 }
 
 .home__header-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home__header-top {
+    margin-top: 5rem;
+    padding: 2.5rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+.home__header-top h2{
+    font-size:3.5rem ;
+    color: var(--color-red);
+}
+.home__header-top p{
+
+}
+
+.top__header-image {
+    width: 52rem;
+    height: 22rem;
+    padding-left: 2rem;
+    margin-left: 2rem;
+    /*display: grid;*/
+    /*place-items: center;*/
+    /*position: relative;*/
+    transition: var(--transition);
+}
+
+.home__header-bottom {
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: space-between;
     gap: 6rem;
+    margin-inline:auto;
 }
 
 .home__header-left {
-    margin-top: -3rem;
+    /*margin-top: -3rem;*/
 }
 
-.home__header-left h4 {
+.home__header-left h2 {
     margin-bottom: 1rem;
     color: var(--color-red);
-    font-weight: 400;
+    font-weight: bolder;
+    font-size: 3rem;
+    text-align: center;
 }
 
 .home__header-left p {
     margin: 1rem 0 3.5rem;
     font-size: 1.1rem;
+    text-align: justify;
 }
 
 .home__header-right {
@@ -37,8 +85,8 @@
 }
 
 .home__header-logo {
-    width: 25rem;
-    height: 25rem;
+    width: 45rem;
+    height: 30rem;
     position: absolute;
     transition: var(--transition);
 }
@@ -50,74 +98,26 @@
 .home__header-right:hover .home__header-logo {
     filter: blur(5px);
 }
-
-/*====================================================================OUR WORK*/
-
-.work {
-    margin-top: 4rem;
-}
-
-.work__wrapper {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 3rem;
-    margin-top: 4rem;
-}
-
-.our__work a {
-    margin-top: 2.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.our__work:hover a {
-    background-color: var(--color-red);
-    color: var(--color-antracite);
-}
-
-/**====================================================================Values*/
-
-.values__container {
-    display: grid;
-    grid-template-columns: 38% 50%;
-    gap: 12%;
-}
-
-.values__image {
-    filter: saturate(0.25);
+.home__header-btn{
+    text-align: center;
+    /*background: var(--color-red);*/
+    place-items: center;
+    /*margin-inline: auto;*/
     transition: var(--transition);
-}
+    margin: 0 auto;
+    padding: 0.9rem 2rem;
+    border-radius:0.5rem;
+    color: var(--color-red);
 
-.values__image:hover {
-    filter: saturate(1);
-}
 
-.values__title {
-    margin: 1.5rem 0 5rem;
-    /*padding-bottom: 5rem;*/
 }
-
-.values__wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3.4rem 2.4rem;
+.add-space{
+    padding: 25rem;
+    margin: 25rem;
+    gap: 2rem;
 }
-
-.card.values__value {
-    padding-top: 3.5rem;
-    text-align: left;
-    position: relative;
-}
-
-.card.values__value span {
-    position: absolute;
-    top: -1.5rem;
-}
-
 /**====================================================================FAQs*/
-
-.faqs__wrapper{
+.faqs__wrapper {
     margin-top: 4rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -125,74 +125,31 @@
     align-items: flex-start;
 }
 
-.question{
+.question {
     background-color: var(--color-red);
     padding: 2rem;
     border-radius: 1rem;
-    cursor:pointer;
-    color:var(--color-antracite);
+    cursor: pointer;
+    color: var(--color-antracite);
 }
 
-.question div{
+.question div {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.question__icon{
+.question__icon {
     background: transparent;
-    color:var(--color-antracite);
+    color: var(--color-antracite);
     font-size: 1.5rem;
 }
-.question h4{
-    color:var(--color-antracite);
+
+.question h4 {
+    color: var(--color-antracite);
 }
-.question p{
+
+.question p {
     margin-top: 1.5rem;
 }
 
-/*==================================================REVIEWS*/
-
-.reviews{
-    width: 50rem;
-    margin-inline: auto;
-}
-.reviews__head{
-    justify-content: center;
-}
-
-.card.review{
-    position: relative;
-    text-align: left;
-    margin-top: 5rem;
-}
-
-.review__quote{
-    font-style: italic;
-    margin: 1rem 0 2rem;
-}
-
-.card small.review__title{
-    margin-top: 0.3rem;
-}
-
-.review__btn-container{
-    width: fit-content;
-    margin: 2.5rem auto 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
-
-.reviews__btn{
-    background: transparent;
-    cursor: pointer;
-}
-
-.reviews__btn svg{
-    fill: var(--color-red);
-    font-size: 1.8rem;
-    width: 3rem;
-    height: 3rem;
-}

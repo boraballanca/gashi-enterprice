@@ -1,7 +1,8 @@
-const SectionHeader = ({icon, title,className}) => {
+const SectionHeader = ({icon, title,className,preview}) => {
   return(
       <div className={`section__head ${className}`}>
-          <span>{icon}</span>
+          {/*<span>{icon}</span>*/}
+          <h4>{preview}</h4>
           <h2>{title}</h2>
       </div>
   )

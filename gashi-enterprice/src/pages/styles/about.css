@@ -1,42 +1,117 @@
-.about__section-image{
-    overflow: hidden;
+/*====================================================================OUR WORK*/
+
+.work {
+    margin-top: 4rem;
+    padding-top: 4rem;
+    /*margin: 3rem;*/
+}
+
+.work__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    margin-top: 4rem;
+    word-wrap: break-word;
+    /*word-break: break-word;*/
+    overflow-wrap: break-word;
+}
+
+
+.our__work a {
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our__work:hover a {
+    background: transparent;
+    color: var(--color-white);
     transition: var(--transition);
 }
-.about__section-image:hover{
-    transform: scale(1.5);
-}
-.about__section-content h1{
-    margin-bottom: 2rem;
-}
-.about__section-content p{
-    margin-bottom: 1rem;
-}
-.about__story-container, .about__mission-container{
+
+/**====================================================================Values*/
+
+.values__container {
     display: grid;
-    grid-template-columns: 40% 50%;
-    gap: 10%;
+    grid-template-columns: 38% 50%;
+    gap: 12%;
 }
 
-.about__vision-container{
-    display: grid;
-    grid-template-columns: 50% 40%;
-    gap: 10%;
+.values__image {
+    filter: saturate(0.25);
+    transition: var(--transition);
 }
 
-@media screen and (max-width:1024px){
-    .about__section-image{
-        width: 60%;
-    }
-    .about__section-content h1{
-        margin-bottom: 1.2rem;
-    }
-    .about__story-container,
-    .about__vision-container,
-    .about__mission-container{
-        grid-template-columns: 1fr;
-        gap: 3rem;
-    }
-    .about__vision, .about__section-image{
-        grid-row: 1;
-    }
+.values__image:hover {
+    filter: saturate(1);
+}
+
+.values__title {
+    margin: 1.5rem 0 5rem;
+    /*padding-bottom: 5rem;*/
+}
+
+.values__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3.4rem 2.4rem;
+}
+
+.card.values__value {
+    padding-top: 3.5rem;
+    text-align: left;
+    position: relative;
+}
+
+.card.values__value span {
+    position: absolute;
+    top: -1.5rem;
+}
+
+/*==================================================REVIEWS*/
+
+.reviews {
+    width: 50rem;
+    margin-inline: auto;
+}
+
+.reviews__head {
+    justify-content: center;
+}
+
+.card.review {
+    position: relative;
+    text-align: left;
+    margin-top: 5rem;
+}
+
+.review__quote {
+    font-style: italic;
+    margin: 1rem 0 2rem;
+}
+
+.card small.review__title {
+    margin-top: 0.3rem;
+}
+
+.review__btn-container {
+    width: fit-content;
+    margin: 2.5rem auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.reviews__btn {
+    background: transparent;
+    cursor: pointer;
+}
+
+.reviews__btn svg {
+    fill: var(--color-red);
+    font-size: 1.8rem;
+    width: 3rem;
+    height: 3rem;
 }

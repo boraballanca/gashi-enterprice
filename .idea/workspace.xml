@@ -2,24 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="accb09fc-8b21-49d5-b61d-9999c4f28ac5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/AboutHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/about.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/logo-trial.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/Gallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/gallery.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/FAQs.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/FAQs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/AboutHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/HomeInfo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/HomeHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/HomeHeader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/OurWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/OurWork.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/Question.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/Question.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/Reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/Reviews.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/Values.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/Values.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/SectionHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/SectionHeader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/Contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/navbar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -46,19 +46,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/OneDrive/Desktop/OneDrive/Documents/GitHub/gashi-enterprice&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Admin/OneDrive/Desktop/simple-animated-card",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\OneDrive\Desktop\OneDrive\Documents\GitHub\gashi-enterprice\gashi-enterprice\src\assets" />
       <recent name="C:\Users\Admin\OneDrive\Desktop\OneDrive\Documents\GitHub\gashi-enterprice\gashi-enterprice\src\pages" />
     </key>
   </component>
@@ -76,6 +77,8 @@
       <workItem from="1680982265522" duration="5360000" />
       <workItem from="1681120709711" duration="14144000" />
       <workItem from="1681212641386" duration="12129000" />
+      <workItem from="1681420851341" duration="31000" />
+      <workItem from="1681553886457" duration="21008000" />
     </task>
     <servers />
   </component>

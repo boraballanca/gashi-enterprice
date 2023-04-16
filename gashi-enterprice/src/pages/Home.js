@@ -5,14 +5,13 @@ import OurWork from "../components/OurWork";
 import Values from '../components/Values'
 import FAQs from '../components/FAQs'
 import Reviews from "../components/Reviews";
+import HomeInfo from "../components/HomeInfo";
 const Home = () => {
     return (
         <>
             <HomeHeader/>
-            <OurWork/>
-            <Values/>
-            <FAQs/>
-            <Reviews/>
+            <HomeInfo/>
+
         </>
     )
 }

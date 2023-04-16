@@ -8,6 +8,7 @@ nav {
     top: 0;
     left: 0;
     z-index: 99;
+    border-bottom: 2px solid var(--color-gray);
 }
 
 .nav__toggle-btn {
@@ -20,6 +21,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     position: relative;
+
 }
 
 .nav__logo {
@@ -45,17 +47,20 @@ nav {
     position: relative;
 }
 
-.active-nav::after {
+.active-nav::after li{
     /*content: '';*/
     /*display: block;*/
-    /*width: 1.2rem;*/
-    /*height: 1.2rem;*/
+    /*text-decoration: underline;*/
+    /*width: 0.2rem;*/
+    /*height: 0.2rem;*/
     /*background: var(--color-red);*/
     /*position: absolute;*/
-    /*left: calc(50% - 0.6rem);*/
+    /*top: 2.5rem;*/
+    /*left: calc(50%);*/
     /*transform: rotate(45deg);*/
-    /*margin-top: 0.9rem;*/
+    margin-top: 0.9rem;
     font-weight: bolder;
+    color: var(--color-red);
 
 }
 

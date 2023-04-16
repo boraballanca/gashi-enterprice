@@ -24,7 +24,7 @@
 
 
 body {
-    font-family: 'Gosha Sans',sans-serif;
+    font-family: 'Gosha Sans', sans-serif;
     color: var(--color-gray);
     line-height: 1.7;
     overflow-x: hidden;
@@ -65,7 +65,7 @@ img {
     width: fit-content;
     margin: 0 auto;
     padding: 0.9rem 2rem;
-    background: var(--color-white);
+    background: var(--color-gray);
     border-radius: 0.5rem;
     transition: var(--transition);
 }
@@ -74,34 +74,44 @@ img {
     background: var(--color-red);
     color: var(--color-antracite);
 }
-.btn.lg{
-    padding:1.2rem 3rem;
+
+.btn.lg {
+    padding: 1.2rem 3rem;
     border-radius: 1rem;
     font-size: 1.1rem;
 }
 
-.btn.sm{
-    padding:0.4rem 1.2rem;
+.btn.sm {
+    padding: 0.4rem 1.2rem;
     font-size: 0.9rem;
 }
 
-.btn.sm:hover{
+.btn.sm:hover {
     background: var(--color-red);
-}
-section{
-    margin: 10rem;
 }
 
 section {
     margin: 10rem;
-
 }
+
 
 .section__head {
-    display: flex;
+    display: grid;
+    flex-direction: column;
     align-items: center;
-    gap: 4rem;
+    /*gap: 4rem;*/
 }
+
+.section__head h2 {
+    text-align: center;
+}
+
+.section__head h4 {
+    color: var(--color-red);
+    text-align: center;
+    padding: 0.2rem;
+}
+
 
 .section__head span {
     background: var(--color-red);
@@ -112,47 +122,58 @@ section {
 }
 
 .card {
-    background: var(--color-red);
+    background: var(--color-gray);
     color: var(--color-antracite);
     border: 2px solid transparent;
-    text-align: center;
+    text-align: left;
     padding: 3rem 2rem;
-    border-radius: 3rem;
+    border-radius: 0.5rem;
     transition: var(--transition);
 }
 
-.card h4{
+.card h4 {
     color: var(--color-antracite);
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--color-antracite);
 }
 
-.card:hover h4{
-    color: var(--color-gray);
+.card:hover h4 {
+    color: var(--color-white);
+    border-bottom: 2px solid var(--color-white);
+    transition: var(--transition);
+
 }
+
 .card:hover {
-    background: transparent;
-    border-color: var(--color-red);
-    color: var(--color-gray);
+    background: var(--color-red);
+    /*border-color: var(--color-red);*/
+    color: var(--color-white);
     cursor: default;
+    transition: var(--transition);
 }
 
 .card span {
-    width: 3rem;
+    text-align: left;
+    width: 2rem;
     height: 3rem;
-    background: var(--color-white);
-    color: var(--color-red);
-    font-size: 1.5rem;
-    padding: 0.8rem;
-    display: grid;
+    background: transparent;
+    color: var(--color-antracite);
+    font-size: 2.5rem;
+    padding: 1rem;
+    /*display: grid;*/
     place-items: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     margin-inline: auto;
     border-radius: 1rem;
     transition: var(--transition);
 }
 
 .card:hover span {
-    background: var(--color-red);
+    /*background: var(--color-red);*/
     color: var(--color-white);
+    transition: var(--transition);
 }
 
 .card small {
@@ -160,6 +181,27 @@ section {
     display: block;
     font-weight: 300;
 }
+
+.card__btn {
+    text-align: left;
+    width: fit-content;
+    background: transparent;
+    color: var(--color-white);
+    place-items: flex-start;
+    margin-inline: auto;
+    transition: var(--transition);
+    margin: 0;
+    /*padding: 0.9rem 2rem;*/
+}
+
+.card__btn-icon{
+    margin-top: 0.2rem;
+    padding-left: 0.2rem;
+    /*color: var(--color-white);*/
+    /*border-radius: 50%;*/
+    /*background: var(--color-antracite);*/
+}
+
 
 /*MEDIA QUERIES (medium screens)*/
 
@@ -175,44 +217,50 @@ section {
     h2 {
         font-size: 1.6rem;
     }
-    .header__container{
+
+    .header__container {
         width: 76%;
     }
 }
+
 /*MEDIA QUERIES (small screens)*/
 @media screen and (max-width: 600px) {
     h1 {
         font-size: 2rem;
         line-height: 1.3;
     }
-    .header{
+
+    .header {
         height: fit-content;
     }
-    section{
+
+    section {
         margin-top: 7rem;
     }
 
     h2 {
         font-size: 1.6rem;
     }
-    .header__content{
+
+    .header__content {
         width: 90%;
         padding: 3rem 0;
     }
 
-    .header__content p{
+    .header__content p {
         font-size: 1.6rem;
     }
 }
 
 
-.header{
+.header {
     margin-top: 5rem;
     height: 20rem;
     overflow: hidden;
     /*border-bottom: 2px solid var(--color-gray-400);*/
 }
-.header__container{
+
+.header__container {
     width: 100%;
     height: 100%;
     position: relative;
@@ -220,23 +268,28 @@ section {
     place-items: center;
     background: black;
 }
-.header__container-bg{
+
+.header__container-bg {
     position: absolute;
     width: 100%;
 }
-.header__container-bg img{
+
+.header__container-bg img {
     opacity: 0.5;
 }
-.header__content{
+
+.header__content {
     position: relative;
     width: 44%;
     margin: 0 auto;
     text-align: center;
     color: var(--color-red);
 }
-.header__content h2{
+
+.header__content h2 {
     margin-bottom: 1rem;
 }
-.header__content p{
-    color: rgba(255,255,255,0.7);
+
+.header__content p {
+    color: rgba(255, 255, 255, 0.7);
 }
