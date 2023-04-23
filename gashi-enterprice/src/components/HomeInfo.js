@@ -1,13 +1,14 @@
 import {Link} from 'react-router-dom'
-import Gashi from '../assets/logo-01.png'
-import Image2 from "../assets/logo-trial.PNG";
+import Gashi from '../assets/logo-10.png'
+
 
 const HomeInfo = () => {
   return(
-      <header className={'home__header'}>
+      <div className={'home__header'}>
           <div className="container home__header-container">
               <div className="home__header-bottom">
                   <div className="home__header-left">
+                      <h2>Gashi Enterprise</h2>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet cum ducimus natus
                           voluptates!
                           Aut delectus inventore perspiciatis repellendus, veritatis vitae.
@@ -25,7 +26,7 @@ const HomeInfo = () => {
                   </div>
               </div>
           </div>
-      </header>
+      </div>
   )
 }
 export default HomeInfo

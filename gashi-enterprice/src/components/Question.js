@@ -1,5 +1,7 @@
-import {AiOutlinePlus} from 'react-icons/ai'
-import {AiOutlineMinus} from 'react-icons/ai'
+
+import {AiOutlineUp, AiOutlineDown} from "react-icons/ai";
+import {FiChevronUp, FiChevronDown} from "react-icons/fi";
+
 import {useState} from 'react'
 const Question =({question,answer})=>{
     const[isAnswerShowing, setIsAnswerShowing]=useState(false)
@@ -9,7 +11,7 @@ const Question =({question,answer})=>{
                 <h4>{question}</h4>
                 <button className="question__icon">
                     {
-                        isAnswerShowing?<AiOutlineMinus/>:<AiOutlinePlus/>
+                        isAnswerShowing?<FiChevronUp/>:<FiChevronDown/>
                     }
                 </button>
             </div>

@@ -5,7 +5,7 @@
     display: grid;
     place-items: center;
     margin-top: 3rem;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 
 
     /*margin-inline: auto;*/
@@ -53,7 +53,7 @@
 .home__header-bottom {
     height: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /*grid-template-columns: 1fr 1fr;*/
     align-items: center;
     justify-content: space-between;
     gap: 6rem;
@@ -85,19 +85,21 @@
 }
 
 .home__header-logo {
-    width: 45rem;
-    height: 30rem;
+    width: 100rem;
+    height: 60rem;
+    margin-left: 15rem;
     position: absolute;
     transition: var(--transition);
 }
 
 .home__header-image {
     position: relative;
+    margin-left:3rem;
 }
 
-.home__header-right:hover .home__header-logo {
-    filter: blur(5px);
-}
+/*.home__header-right:hover .home__header-logo {*/
+/*    filter: blur(5px);*/
+/*}*/
 .home__header-btn{
     text-align: center;
     /*background: var(--color-red);*/
@@ -111,11 +113,35 @@
 
 
 }
-.add-space{
-    padding: 25rem;
-    margin: 25rem;
-    gap: 2rem;
+
+
+/*================================================================IMAGE-HEADER*/
+.header__card-wrapper{
+    margin-top: -14rem;
+    margin-left: 11rem;
+    padding-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3rem;
+    position: relative;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
+
+.header__card{
+    background: var(--color-red);
+    opacity: 1;
+    transition: var(--transition);
+}
+
+.header__card:hover{
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+/*.header__card:hover a{*/
+/*    color: var(--color-white);*/
+/*}*/
 /**====================================================================FAQs*/
 .faqs__wrapper {
     margin-top: 4rem;
@@ -152,4 +178,36 @@
 .question p {
     margin-top: 1.5rem;
 }
+
+/*================================SERVICES*/
+.services {
+    margin-top: 3rem;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+    /*margin: 3rem;*/
+}
+
+.services__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    margin-top: 4rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    justify-items: center;
+
+}
+.services__wrapper img{
+    border-radius:0.5rem ;
+    box-shadow:  0px 0px 25px 8px var(--color-red);
+}
+.image_card{
+    transition: var(--transition);
+}
+
+.image_card:hover{
+    transform: scale(1.5);
+    transition: var(--transition);
+}
+
 

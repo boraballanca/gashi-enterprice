@@ -1,5 +1,6 @@
 footer{
     background:var(--color-antracite) ;
+    border-top: 2px solid var(--color-gray);
     margin-top: 7rem;
     padding-top: 7rem;
     font-size: 0.9rem;
@@ -8,17 +9,18 @@ footer{
 
 .footer__container{
     display: grid;
-    grid-template-columns: 26rem 1fr 1fr 1fr;
+    grid-template-columns: 26rem 1fr 1fr 2fr;
     gap: 6rem;
+    justify-items: start;
+    align-items: start;
+    align-content: stretch;
 }
 
 .footer__container article{
     display: flex;
     flex-direction: column;
     gap: 0.7rem;
-    align-content: space-between;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
 }
 .footer__container article p{
     margin-top: 0.5rem;
@@ -27,6 +29,8 @@ footer{
 .footer__container article h4{
     margin-bottom: 0.6rem;
     font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--color-red);
 }
 .footer__logo {
     width: 12rem;
@@ -58,7 +62,7 @@ footer{
 .footer__copyright{
     color: var(--color-gray);
     text-align: center;
-    padding: 1.5rem 0;
+    padding: 0.5rem 0;
     border-top: 2px solid var(--color-gray);
     margin-top: 5rem;
 }

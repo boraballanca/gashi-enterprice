@@ -49,8 +49,8 @@ const OurWork = () => {
         <section className='work'>
             <div className="container work_container">
                 <SectionHeader className={'work__header'}
-                               title={'Our Recent Work'}
-                               preview={'High Quality Construction Solutions'}/>
+                               title={'High Quality Construction Solutions'}
+                               preview={'The Best A Grade Commercial & Residential Services'}/>
                 <div className="work__wrapper">
                     {works.map(({id, icon, title, info, path}) => {
                         return (

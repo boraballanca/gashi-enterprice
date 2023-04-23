@@ -2,24 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="accb09fc-8b21-49d5-b61d-9999c4f28ac5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/logo-trial.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/Gallery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/gallery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/construction-02.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/construction-03.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/construction-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/logo-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/logo-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/logo-to-delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/post-01.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/post-02.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/post-03.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/post-04.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/post-05.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/post-06.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/post-07.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/ImageCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/contact.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/AboutHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/HomeInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/logo-trial.PNG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/HomeHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/HomeHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/HomeInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/HomeInfo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/OurWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/OurWork.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/SectionHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/SectionHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/Question.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/Question.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/Reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/Reviews.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/Values.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/Values.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/Contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/Gallery.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/NotFound.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/HomeServices.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/gallery.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/navbar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +48,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -51,13 +70,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Admin/OneDrive/Desktop/simple-animated-card",
+    "last_opened_file_path": "C:/Users/Admin/OneDrive/Desktop/OneDrive/Documents/GitHub/gashi-enterprice/gashi-enterprice/src/assets",
     "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\OneDrive\Desktop\OneDrive\Documents\GitHub\gashi-enterprice\gashi-enterprice\src\assets" />
+      <recent name="C:\Users\Admin\OneDrive\Desktop\OneDrive\Documents\GitHub\gashi-enterprice\gashi-enterprice\public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\OneDrive\Desktop\OneDrive\Documents\GitHub\gashi-enterprice\gashi-enterprice\src\assets" />
       <recent name="C:\Users\Admin\OneDrive\Desktop\OneDrive\Documents\GitHub\gashi-enterprice\gashi-enterprice\src\pages" />
@@ -79,6 +103,9 @@
       <workItem from="1681212641386" duration="12129000" />
       <workItem from="1681420851341" duration="31000" />
       <workItem from="1681553886457" duration="21008000" />
+      <workItem from="1681644420932" duration="15434000" />
+      <workItem from="1682183469453" duration="17891000" />
+      <workItem from="1682261991875" duration="3674000" />
     </task>
     <servers />
   </component>

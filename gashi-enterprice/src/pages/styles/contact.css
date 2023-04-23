@@ -1,0 +1,60 @@
+.contact__container {
+    /*background-image: url('src/assets/logo-09.png');*/
+    /*background-color:var(--color-antracite);*/
+    /*background: url('src/assets/logo-to-delete.png') no-repeat scroll left center;*/
+
+}
+
+.contact__head-title {
+    margin-top: 10rem;
+}
+
+
+.contact__details {
+    margin:2rem;
+    padding: 2rem 15rem;
+    gap: 1.5rem;
+    text-align: center;
+    display: grid;
+    grid-template-rows:1fr 1fr;
+}
+
+.contact__card{
+    padding: 2rem;
+    gap: 1.5rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 30% 50%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-antracite);
+    color:var(--color-gray);
+    /*transition: var(--transition);*/
+}
+.contact__card h4, .contact__card span{
+    color:var(--color-gray);
+    transition: var(--transition);
+}
+
+.contact__card:hover{
+    background: var(--color-antracite);
+    color:var(--color-gray);
+}
+.contact__card:hover h4, .contact__card:hover span{
+    color:var(--color-gray)
+}
+.contact__card:hover h4{
+    color: var(--color-gray);
+    border-bottom: 2px solid var(--color-red);
+    padding: 1rem;
+    transition: var(--transition);
+}
+.contact__card:hover a{
+    color: var(--color-red);
+}
+.contact__card-right{
+    display: grid;
+    justify-items: center;
+}
+

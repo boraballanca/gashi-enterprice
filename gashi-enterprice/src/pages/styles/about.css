@@ -37,9 +37,13 @@
     grid-template-columns: 38% 50%;
     gap: 12%;
 }
-
+.values__left{
+    display: flex;
+    align-items: center;
+}
 .values__image {
-    filter: saturate(0.25);
+
+    /*filter: saturate(0.25);*/
     transition: var(--transition);
 }
 
@@ -49,7 +53,6 @@
 
 .values__title {
     margin: 1.5rem 0 5rem;
-    /*padding-bottom: 5rem;*/
 }
 
 .values__wrapper {
@@ -59,14 +62,17 @@
 }
 
 .card.values__value {
+    color:var(--color-gray);
+    background:var(--color-antracite);
+    box-shadow:  0px 0px 10px 8px var(--color-red);
     padding-top: 3.5rem;
-    text-align: left;
+    text-align: right;
     position: relative;
 }
-
-.card.values__value span {
-    position: absolute;
-    top: -1.5rem;
+.values__value h4{
+    color: var(--color-gray);
+    transition: var(--transition);
+    text-align: right;
 }
 
 /*==================================================REVIEWS*/
@@ -81,12 +87,37 @@
 }
 
 .card.review {
+    background: var(--color-antracite);
+    color: var(--color-white);
+    gap: 1.5rem;
+    box-shadow:  21px 13px 2px 2px var(--color-red);
+    display: grid;
+    grid-template-columns: 50% 43%;
     position: relative;
-    text-align: left;
+    text-align: justify;
     margin-top: 5rem;
+    transition: var(--transition);
 }
 
+.card.review:hover{
+    box-shadow: -21px -13px 2px 2px var(--color-red);
+    transition: var(--transition);
+}
+.card__left img{
+    width: 10rem;
+    height: 20rem;
+    overflow: hidden;
+    margin-left: 4rem;
+}
+.card__right h3{
+    /*color: var(--color-red);*/
+    text-transform: uppercase;
+}
+.card__right h3, .card__right small{
+    text-align: right;
+}
 .review__quote {
+    color: var(--color-red);
     font-style: italic;
     margin: 1rem 0 2rem;
 }

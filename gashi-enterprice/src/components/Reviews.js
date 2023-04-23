@@ -2,7 +2,9 @@ import {useState} from 'react'
 import SectionHeader from "./SectionHeader";
 import {MdOutlineReviews} from 'react-icons/md'
 import Card from './Card'
-import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from "react-icons/io";
+import logo from '../assets/logo-11.png'
+import {AiOutlineLeft, AiOutlineRight} from "react-icons/ai";
+// import { HiOutlineArrowSmLeft, HiOutlineArrowSmRight} from 'react-icons/hi'
 
 const reviews = [
     {
@@ -62,13 +64,21 @@ const Reviews = () => {
             <div className="container reviews__container">
                 <SectionHeader icon={<MdOutlineReviews/>} title='Reviews' className={'reviews__head'}/>
                 <Card className={'review'}>
-                    <p className="review__quote">{`"${quote}"`}</p>
-                    <h5>{name}</h5>
-                    <small className={'review__title'}>{job}</small>
+                    <div className="card__left">
+                        <img src={logo} alt=""/>
+                    </div>
+                    <div className='card__right'>
+                        <h3>{name}</h3>
+                        <small className={'review__title'}>{job}</small>
+                        <p className="review__quote">{`"${quote}"`}</p>
+                    </div>
+
+
+
                 </Card>
                 <div className="review__btn-container">
-                    <button className="reviews__btn" onClick={prevReviewHandler}><IoIosArrowDropleftCircle/></button>
-                    <button className="reviews__btn"onClick={nextReviewHandler}><IoIosArrowDroprightCircle/></button>
+                    <button className="reviews__btn" onClick={prevReviewHandler}><AiOutlineLeft/></button>
+                    <button className="reviews__btn"onClick={nextReviewHandler}><AiOutlineRight/></button>
                 </div>
             </div>
         </section>

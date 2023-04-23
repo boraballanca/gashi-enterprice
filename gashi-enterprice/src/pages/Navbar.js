@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import {Link, NavLink} from 'react-router-dom'
 import './styles/navbar.css'
-import Logo from '../assets/logo-07.png'
+import Logo from '../assets/logo-01.png'
 import {GoThreeBars} from 'react-icons/go'
 import {MdOutlineClose} from 'react-icons/md'
 const links = [

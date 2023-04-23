@@ -1,25 +1,33 @@
 import {Link} from 'react-router-dom'
 import Gashi from '../assets/logo-01.png'
-import Image2 from "../assets/logo-trial.PNG";
+import Construction from "../assets/construction-03.jpeg";
+import Card from "./Card";
+import {AiFillCaretRight} from "react-icons/ai";
 
-const HomeHeader = () => {
+
+const HomeHeader = ({image, title, content}) => {
     return (
+        <header className={'header'}>
+            <div className={'header__image-wrapper'}>
+                <div className="header__container">
+                    <div className="header__container-bg">
+                        <img src={image} alt="Header Image"/>
+                    </div>
 
-        <div className={'home__header'}>
-            <div className="container home__header-container">
-                <div className="home__header-top">
-                    <h2>Gashi Enterprise</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet cum ducimus natus!</p>
-                    <Link to={'/about'} className={'home__header-btn'}>More about us</Link>
-                    <img className={'top__header-image'} src={Image2} alt="This needs to be replaced"/>
                 </div>
-
-
-
             </div>
-        </div>
+            <div className="header__card-wrapper">
+                <Link to={'/about'} className={'card__btn'}>
+                    <Card className={'header__card'}>
+                        <h4>{title}</h4>
+                        <small>{content}</small>
+
+
+                    </Card>
+                </Link>
+            </div>
+        </header>
 
     )
 }
 export default HomeHeader
-

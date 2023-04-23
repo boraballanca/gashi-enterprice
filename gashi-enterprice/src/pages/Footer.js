@@ -3,6 +3,10 @@ import Logo from '../assets/logo-03.png'
 import {FaLinkedin, FaFacebookF} from "react-icons/fa";
 import {AiOutlineTwitter,AiFillInstagram} from "react-icons/ai";
 import './styles/footer.css'
+import {BsTelephone} from "react-icons/bs";
+import {TbPin} from "react-icons/tb";
+import {HiOutlineMail} from "react-icons/hi";
+
 const Footer=()=>{
     return(
         <footer>
@@ -13,10 +17,10 @@ const Footer=()=>{
                     </Link>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, repellendus?</p>
                 <div className="footer__socials">
-                    <a href="https://linkedin.com" target={'_blank'} rel={'noreferrer noopener'}><FaLinkedin/></a>
-                    <a href="https://facebook.com" target={'_blank'} rel={'noreferrer noopener'}><FaFacebookF/></a>
-                    <a href="https://instagram.com" target={'_blank'} rel={'noreferrer noopener'}><AiFillInstagram/></a>
-                    <a href="https://twitter.com" target={'_blank'} rel={'noreferrer noopener'}><AiOutlineTwitter/></a>
+                    {/*<a href="https://linkedin.com" target={'_blank'} rel={'noreferrer noopener'}><FaLinkedin/></a>*/}
+                    <a href="https://www.facebook.com/GashiEnterprise?mibextid=LQQJ4d" target={'_blank'} rel={'noreferrer noopener'}><FaFacebookF/></a>
+                    <a href="https://instagram.com/gashi_enterprise?igshid=YmMyMTA2M2Y=" target={'_blank'} rel={'noreferrer noopener'}><AiFillInstagram/></a>
+                    {/*<a href="https://twitter.com" target={'_blank'} rel={'noreferrer noopener'}><AiOutlineTwitter/></a>*/}
                 </div>
                 </article>
                 <article>
@@ -27,13 +31,14 @@ const Footer=()=>{
                 </article>
                 <article>
                     <h4>Insights</h4>
-                    <Link to={'/work'}>Our work</Link>
-                    <Link to={'/questions'}>Ask questions</Link>
+                    <Link to={'/gallery'}>Our work</Link>
+                    <Link to={'/faqs'}>FAQs</Link>
                 </article>
                 <article>
-                    <h4>More about us</h4>
-                    <Link to={'/about'}>About</Link>
-                    <Link to={'/contact'}>Contact</Link>
+                    <h4>Quick Contact</h4>
+                    <p><BsTelephone/> +1 23 456 789</p>
+                    <p><TbPin/>   Troy, Michigan</p>
+                    <p><HiOutlineMail/>  business@gashienterprise.com</p>
                 </article>
             </div>
             <div className={'footer__copyright'}>

@@ -5,6 +5,8 @@ import About from "./pages/About";
 import Gallery from "./pages/Gallery";
 import Navbar from "./pages/Navbar";
 import Footer from './pages/Footer'
+import Contact from "./pages/Contact";
+import FAQs from "./components/FAQs";
 function App() {
   return (
 
@@ -14,6 +16,8 @@ function App() {
         <Route index element={<Home/>}/>
           <Route path={'about'} element={<About/>}></Route>
           <Route path={'gallery'} element={<Gallery/>}></Route>
+          <Route path={'contact'} element={<Contact/>}></Route>
+          <Route path={'faqs'} element={<FAQs/>}></Route>
       </Routes>
         <Footer/>
     </BrowserRouter>
