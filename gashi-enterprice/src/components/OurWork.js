@@ -1,47 +1,39 @@
 import {MdOutlineArchitecture,MdOutlineConstruction} from 'react-icons/md'
 import {GrUserWorker} from 'react-icons/gr'
-// import {IoConstructOutline} from 'react-icons/io'
 import {AiFillCaretRight} from "react-icons/ai";
 import SectionHeader from "./SectionHeader";
 import Card from './Card'
 import {Link} from "react-router-dom";
-import Logo from '../assets/logo-04.png'
 
 export const works = [
     {
         id: 1,
         icon: <MdOutlineArchitecture/>,
-        title: "Architecture & Construction",
-        info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit." +
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit." +
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        title: "Heating & Cooling services",
+        info: "Including heating and cooling services to ensure that your home or business is comfortable year-round.",
         path: "/work/111"
     },
     {
         id: 2,
         icon: <MdOutlineConstruction/>,
-        title: "Construction Consultants",
-        info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit." +
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit." +
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        title: "Demolition services",
+        info: "Including safe and controlled demolition of existing structures to clear the site for new construction",
         path: "/work/222"
     },
     {
         id: 3,
         icon: <GrUserWorker/>,
-        title: "Construction Management",
-        info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit." +
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit." +
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        title: "Plumbing services",
+        info: "Including comprehensive range of plumbing services, including installation, repair, and maintenance.",
         path: "/work/333"
     },
     // {
     //     id: 4,
-    //     icon: <MdConstruction/>,
-    //     title: "Program Four",
-    //     info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-    //     path: "/work/444"
-    // }
+    //     icon: <GrUserWorker/>,
+    //     title: "Heating and cooling services",
+    //     info: "Including heating and cooling services to ensure that your home or business is comfortable year-round.",
+    //     path: "/work/333"
+    // },
 ]
 
 const OurWork = () => {
@@ -66,7 +58,6 @@ const OurWork = () => {
                     })}
                 </div>
             </div>
-
         </section>
     )
 }

@@ -1,34 +1,28 @@
 import Logo from '../assets/post-04.jpeg'
 import SectionHeader from "./SectionHeader";
-import {GiCutDiamond} from 'react-icons/gi';
-import {MdConstruction} from 'react-icons/md'
 import Card from "./Card";
 
 
 const values = [
     {
         id: 1,
-        icon: <MdConstruction/>,
-        title: "Value One",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
+        title: "Safety",
+        desc: "Our team is properly trained and equipped to provide a safe working environment."
     },
     {
         id: 2,
-        icon: <MdConstruction/>,
-        title: "Value Two",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
+        title: "Quality",
+        desc: "We provide deliver high-quality workmanship and materials for every project."
     },
     {
         id: 3,
-        icon: <MdConstruction/>,
-        title: "Value Three",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
+        title: "Customer Service",
+        desc: "We prioritize clear communication, and take clients requests into close consideration"
     },
     {
         id: 4,
-        icon: <MdConstruction/>,
-        title: "Value Four",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
+        title: "Integrity",
+        desc: "We adhere to ethical standards, honest and transparent business deals."
     }
 ]
 
@@ -45,10 +39,9 @@ const Values = () => {
                 <div className="values__right">
                     <div className="values__wrapper">
                         {
-                            values.map(({id, icon, title, desc}) => {
+                            values.map(({id, title, desc}) => {
                                 return (
                                     <Card key={id} className={'values__value'}>
-                                        {/*<span>{icon}</span>*/}
                                         <h4>{title}</h4>
                                         <small>{desc}</small>
                                     </Card>

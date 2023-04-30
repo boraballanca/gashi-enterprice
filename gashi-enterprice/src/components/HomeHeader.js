@@ -1,8 +1,5 @@
 import {Link} from 'react-router-dom'
-import Gashi from '../assets/logo-01.png'
-import Construction from "../assets/construction-03.jpeg";
 import Card from "./Card";
-import {AiFillCaretRight} from "react-icons/ai";
 
 
 const HomeHeader = ({image, title, content}) => {
@@ -13,7 +10,6 @@ const HomeHeader = ({image, title, content}) => {
                     <div className="header__container-bg">
                         <img src={image} alt="Header Image"/>
                     </div>
-
                 </div>
             </div>
             <div className="header__card-wrapper">
@@ -21,8 +17,6 @@ const HomeHeader = ({image, title, content}) => {
                     <Card className={'header__card'}>
                         <h4>{title}</h4>
                         <small>{content}</small>
-
-
                     </Card>
                 </Link>
             </div>

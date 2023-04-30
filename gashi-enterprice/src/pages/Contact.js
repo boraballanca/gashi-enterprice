@@ -1,7 +1,3 @@
-import FAQs from "../components/FAQs";
-import HomeHeader from "../components/HomeHeader";
-import logo from '../assets/logo-08.png'
-import Header from "./Header";
 import './styles/contact.css'
 import SectionHeader from "../components/SectionHeader";
 import {MdEmail, MdLocationOn} from "react-icons/md";
@@ -66,8 +62,6 @@ const Contact = () => {
                     }
                 </div>
             </div>
-            {/*<Header/>*/}
-            {/*<FAQs/>*/}
 
         </>
     )

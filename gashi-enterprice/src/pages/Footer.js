@@ -17,10 +17,8 @@ const Footer=()=>{
                     </Link>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, repellendus?</p>
                 <div className="footer__socials">
-                    {/*<a href="https://linkedin.com" target={'_blank'} rel={'noreferrer noopener'}><FaLinkedin/></a>*/}
                     <a href="https://www.facebook.com/GashiEnterprise?mibextid=LQQJ4d" target={'_blank'} rel={'noreferrer noopener'}><FaFacebookF/></a>
                     <a href="https://instagram.com/gashi_enterprise?igshid=YmMyMTA2M2Y=" target={'_blank'} rel={'noreferrer noopener'}><AiFillInstagram/></a>
-                    {/*<a href="https://twitter.com" target={'_blank'} rel={'noreferrer noopener'}><AiOutlineTwitter/></a>*/}
                 </div>
                 </article>
                 <article>
