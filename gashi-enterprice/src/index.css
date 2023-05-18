@@ -207,7 +207,7 @@ section {
 
 @media screen and (max-width: 1024px) {
     .container {
-        width: 90%;
+        width: var(--container-width-mg);
     }
 
     h1 {
@@ -217,10 +217,6 @@ section {
     h2 {
         font-size: 1.6rem;
     }
-
-    /*.header__container {*/
-    /*    width: 76%;*/
-    /*}*/
 }
 
 /*MEDIA QUERIES (small screens)*/

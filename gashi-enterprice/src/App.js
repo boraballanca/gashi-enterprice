@@ -7,6 +7,7 @@ import Navbar from "./pages/Navbar";
 import Footer from './pages/Footer'
 import Contact from "./pages/Contact";
 import FAQs from "./components/FAQs";
+import ServiceForm from "./pages/ServiceForm"
 function App() {
   return (
 
@@ -18,6 +19,7 @@ function App() {
           <Route path={'gallery'} element={<Gallery/>}></Route>
           <Route path={'contact'} element={<Contact/>}></Route>
           <Route path={'faqs'} element={<FAQs/>}></Route>
+          <Route path={'service'} element={<ServiceForm/>}></Route>
       </Routes>
         <Footer/>
     </BrowserRouter>

@@ -4,7 +4,7 @@ import {MdEmail, MdLocationOn} from "react-icons/md";
 import {FaFacebookSquare} from "react-icons/fa";
 import {RiInstagramFill} from "react-icons/ri";
 import Card from "../components/Card";
-
+import logo from '../assets/logo-11.png'
 
 const contacts = [
     {
@@ -37,7 +37,7 @@ const contacts = [
 const Contact = () => {
     return (
         <>
-            <div className="container contact__container">
+            <div className="container contact__container" style={{backgroundImage: `url(${logo})`,backgroundRepeat:"no-repeat",backgroundSize:"40rem"}}>
                 <div className="contact__header">
                     <SectionHeader className={'contact__head-title'} title={'Contact Us'}/>
                 </div>

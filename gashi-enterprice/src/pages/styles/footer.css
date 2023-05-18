@@ -52,17 +52,29 @@ footer{
     transition: var(--transition);
 }
 .footer__socials a svg{
-    color: var(--color-white);
-}
-.footer__socials a:hover{
-    border-color: var(--color-red);
-    background: transparent;
+    color: var(--color-antracite);
 }
 
+.footer__socials a:hover{
+    /*border-color: var(--color-antracite);*/
+    background: var(--color-antracite);
+
+    box-shadow:0px 0px 6px 4px var(--color-red);
+}
+.footer__socials a:hover svg{
+    color:var(--color-red);
+}
 .footer__copyright{
     color: var(--color-gray);
     text-align: center;
     padding: 0.5rem 0;
     border-top: 2px solid var(--color-gray);
     margin-top: 5rem;
+}
+
+@media screen and (max-width: 1024px){
+.footer__container{
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
 }

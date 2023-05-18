@@ -19,7 +19,7 @@ const SlideshowImages = ({className, slideImages}) => {
         }
     }
     return (
-        <div className={className}>
+        <div className={`slideshow__images ${className}`}>
             <ImageCard className={'gallery__image-card'} image={image}/>
             <div className="gallery__btn-wrapper">
                 <button className="gallery__btn" onClick={prevGalleryHandler}><AiOutlineLeft/></button>

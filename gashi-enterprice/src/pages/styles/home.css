@@ -2,7 +2,7 @@
 
 .header__image-wrapper {
     margin-top: 5rem;
-    width: 125%;
+    /*width: 125%;*/
     height: 30rem;
     overflow: hidden;
 }
@@ -20,7 +20,11 @@
 .header__container-bg {
     transition: var(--transition);
     position: absolute;
-    width: 100%;
+    display: grid;
+    place-items: center;
+    width: 130vw;
+    justify-content: end;
+    justify-items: center;
 
 }
 
@@ -62,21 +66,25 @@
 
 .home__info-container {
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 6rem;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    margin-top: 5rem;
+    /*flex-direction: column;*/
+    justify-content: space-between;
+    /*gap: 6rem;*/
+    position: absolute;
+    /*text-align: center;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
 
 }
 
 .home__info-wrapper{
     height: 100%;
     display: grid;
-    align-items: center;
+    margin-bottom: 24rem;
+    align-items: stretch;
     justify-content: space-between;
-    gap: 6rem;
+    /*gap: 6rem;*/
     margin-inline:auto;
 }
 
@@ -89,7 +97,7 @@
 }
 
 .home__info-content p {
-    margin: 1rem 0 3.5rem;
+    margin: 1rem 10rem 3.5rem;
     font-size: 1.1rem;
     text-align: justify;
 }
@@ -98,53 +106,18 @@
     display: grid;
     place-items: center;
     position: relative;
+    margin-top: -15rem;
 }
 
 .home__header-logo {
     display: flex;
-    width: 100rem;
-    height: 60rem;
+    /*width: 200vh;*/
+    /*height: 120vh;*/
     position: absolute;
     transition: var(--transition);
     flex-direction: column;
-    align-content: center;
+    /*align-content: center;*/
     align-items: center;
-}
-/**====================================================================FAQs*/
-.faqs__wrapper {
-    margin-top: 4rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem 5rem;
-    align-items: flex-start;
-}
-
-.question {
-    background-color: var(--color-red);
-    padding: 2rem;
-    border-radius: 1rem;
-    cursor: pointer;
-    color: var(--color-antracite);
-}
-
-.question div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.question__icon {
-    background: transparent;
-    color: var(--color-antracite);
-    font-size: 1.5rem;
-}
-
-.question h4 {
-    color: var(--color-antracite);
-}
-
-.question p {
-    margin-top: 1.5rem;
 }
 
 /*================================SERVICES*/
@@ -152,7 +125,7 @@
     margin-top: 3rem;
     padding-top: 3rem;
     margin-bottom: 3rem;
-    /*margin: 3rem;*/
+
 }
 
 .home__services-wrapper {
@@ -167,7 +140,7 @@
 }
 .home__services-wrapper img{
     border-radius:0.5rem ;
-    box-shadow:  0px 0px 25px 8px var(--color-red);
+    box-shadow:  0px 0px 15px 2px var(--color-red);
 }
 .home__services-card{
     transition: var(--transition);
@@ -178,4 +151,60 @@
     transition: var(--transition);
 }
 
+@media screen and (max-width: 1024px){
+
+    .header__card-wrapper{
+        margin-top: -20rem;
+        margin-left: 4rem;
+        padding-top: 4rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8rem;
+        position: relative;
+    }
+
+    .home__services-container{
+        display: grid;
+        justify-items: center;
+    }
+    .home__services-wrapper{
+        grid-template-columns: 1fr;
+        width: 45vw;
+        gap: 4rem;
+    }
+
+}
+@media screen and (max-width: 600px){
+
+    .header__card-wrapper{
+        margin-top: -25rem;
+        margin-left: 2rem;
+        padding-top: 3rem;
+        /*width: 65vh;*/
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8rem;
+        position: relative;
+    }
+
+    .home__header-logo{
+        display: none;
+        /*width: 50%;*/
+        /*width: 190vh;*/
+        /*height: 120vh;*/
+    }
+    .home__services-container{
+        margin-top: -20rem;
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+    }
+    .home__services-wrapper{
+        /*display: grid;*/
+        grid-template-columns: 1fr;
+        width: 45vw;
+        gap: 4rem;
+    }
+
+}
 

@@ -62,23 +62,21 @@ const Reviews = () => {
     return (
         <section className={'reviews'}>
             <div className="container reviews__container">
-                <SectionHeader icon={<MdOutlineReviews/>} title='Reviews' className={'reviews__head'}/>
+                <SectionHeader title={'Reviews'} preview={'A few words from our clients'} className={'reviews__head'}
+                />
                 <Card className={'review'}>
                     <div className="card__left">
-                        <img src={logo} alt=""/>
-                    </div>
-                    <div className='card__right'>
+                        {/*<img src={logo} alt=""/>*/}
                         <h3>{name}</h3>
                         <small className={'review__title'}>{job}</small>
+                    </div>
+                    <div className='card__right'>
                         <p className="review__quote">{`"${quote}"`}</p>
                     </div>
-
-
-
                 </Card>
                 <div className="review__btn-container">
                     <button className="reviews__btn" onClick={prevReviewHandler}><AiOutlineLeft/></button>
-                    <button className="reviews__btn"onClick={nextReviewHandler}><AiOutlineRight/></button>
+                    <button className="reviews__btn" onClick={nextReviewHandler}><AiOutlineRight/></button>
                 </div>
             </div>
         </section>

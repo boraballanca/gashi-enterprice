@@ -1,0 +1,41 @@
+/**====================================================================FAQs*/
+.faqs__container{
+    width: 70%;
+}
+.faqs__wrapper {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem 5rem;
+    align-items: flex-start;
+}
+
+.question {
+    background-color: var(--color-gray);
+    opacity: 1;
+    padding: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    color: var(--color-antracite);
+    position: relative;
+}
+
+.question div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question__icon {
+    background: transparent;
+    color: var(--color-antracite);
+    font-size: 1.5rem;
+}
+
+.question h4 {
+    color: var(--color-antracite);
+}
+
+.question p {
+    margin-top: 1.5rem;
+}

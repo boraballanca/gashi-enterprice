@@ -1,5 +1,5 @@
 .contact__container {
-    /*background-image: url('src/assets/logo-09.png');*/
+    /*background-image: url('logo-11.png');*/
     /*background-color:var(--color-antracite);*/
     /*background: url('src/assets/logo-to-delete.png') no-repeat scroll left center;*/
 
@@ -28,7 +28,7 @@
     align-content: center;
     justify-content: center;
     align-items: center;
-    background: var(--color-antracite);
+    background: transparent;
     color:var(--color-gray);
     /*transition: var(--transition);*/
 }
@@ -38,7 +38,7 @@
 }
 
 .contact__card:hover{
-    background: var(--color-antracite);
+    background: transparent;
     color:var(--color-gray);
 }
 .contact__card:hover h4, .contact__card:hover span{
@@ -57,4 +57,28 @@
     display: grid;
     justify-items: center;
 }
+@media screen and (max-width: 1024px){
 
+    .slideshow__content {
+        display: grid;
+        grid-template-columns: 1fr;
+        /*gap: 5rem;*/
+        /*justify-content: center;*/
+        /*align-items: center;*/
+    }
+    .before__after-content {
+        display: grid;
+        grid-template-columns:1fr;
+        align-items: start;
+        justify-items: center;
+        /*gap: 12%;*/
+    }
+}
+@media screen and (max-width: 1200px){
+.contact__details{
+    display: grid;
+    justify-content: center;
+}
+
+
+}

@@ -31,6 +31,7 @@ const Footer=()=>{
                     <h4>Insights</h4>
                     <Link to={'/gallery'}>Our work</Link>
                     <Link to={'/faqs'}>FAQs</Link>
+                    <Link to={'/service'}>Service Form</Link>
                 </article>
                 <article>
                     <h4>Quick Contact</h4>
