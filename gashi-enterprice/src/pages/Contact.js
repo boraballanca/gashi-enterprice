@@ -31,13 +31,13 @@ const contacts = [
         id: 4,
         icon: <MdLocationOn/>,
         title: "Mailing Address",
-        info: "Troy, Michigan"
+        info: "Michigan"
     }
 ]
 const Contact = () => {
     return (
         <>
-            <div className="container contact__container" style={{backgroundImage: `url(${logo})`,backgroundRepeat:"no-repeat",backgroundSize:"40rem"}}>
+            <div className="container contact__container" style={{backgroundImage: `url(${logo})`,backgroundRepeat:"no-repeat",backgroundSize:"38rem"}}>
                 <div className="contact__header">
                     <SectionHeader className={'contact__head-title'} title={'Contact Us'}/>
                 </div>

@@ -24,13 +24,13 @@ const ServicesForm = () => {
     };
 
     return (
-
-        // <div className={'container form__container'}>
         <>
-            <SectionHeader title={'Our Services'} preview={'Request more information about our services'} className={'form__header'}/>
+            <div></div>
+            <SectionHeader title={'Our Work'}
+                           // preview={'Request more information about our services'}
+                           className={'form__header'}/>
 
             <form className={'form__content'}
-                // ref={form} onSubmit={'/'}
             >
                 <div className="user_info">
                     <input type="text" name={'user_name'} placeholder={'Name'}/>

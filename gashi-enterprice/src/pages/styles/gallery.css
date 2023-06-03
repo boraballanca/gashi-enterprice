@@ -44,7 +44,7 @@
 
 .slideshow__content {
     display: grid;
-    grid-template-columns: 40% 80%;
+    grid-template-columns: 50% 80%;
     gap: 5rem;
     justify-content: center;
     align-items: center;

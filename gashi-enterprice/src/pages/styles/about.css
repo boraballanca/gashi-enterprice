@@ -1,9 +1,8 @@
-/*====================================================================OUR WORK*/
+/*====================================================================WORK*/
 
 .work {
-    margin-top: 4rem;
+    margin: 4rem;
     padding-top: 4rem;
-    /*margin: 3rem;*/
 }
 
 .work__wrapper {
@@ -11,32 +10,19 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
     margin-top: 4rem;
-    word-wrap: break-word;
-    /*word-break: break-word;*/
-    overflow-wrap: break-word;
-    justify-content: center;
 }
 
-
-.our__work a {
-    margin-top: 2.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.our__work:hover a {
-    background: transparent;
-    color: var(--color-white);
-    transition: var(--transition);
-}
 
 /**====================================================================Values*/
 
+.values {
+    margin: 4rem;
+    padding-top: 4rem;
+}
 .values__container {
     display: grid;
-    grid-template-columns: 38% 50%;
-    gap: 12%;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
 }
 .values__left{
     display: flex;
@@ -48,9 +34,6 @@
     transition: var(--transition);
 }
 
-.values__image:hover {
-    filter: saturate(1);
-}
 
 .values__title {
     margin: 1.5rem 0 5rem;
@@ -59,7 +42,7 @@
 .values__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 3.4rem 2.4rem;
+    gap: 3rem;
 }
 
 .card.values__value {
@@ -79,8 +62,8 @@
 /*==================================================REVIEWS*/
 
 .reviews {
-    /*width: 50rem;*/
-    margin-inline: auto;
+    margin:4rem;
+    padding-top: 4rem;
 }
 
 .reviews__head {
@@ -111,10 +94,7 @@
     transition: var(--transition);
     color: var(--color-gray);
 }
-/*.card.review:hover h3{*/
-/*    transition: var(--transition);*/
-/*    color: var(--color-white);*/
-/*}*/
+
 
 .card.review:hover small{
     padding-bottom: 1rem;
@@ -129,7 +109,6 @@
     align-content: center;
 }
 .card__left h3{
-    /*color: var(--color-red);*/
     text-transform: uppercase;
 }
 .card__left h3, .card__left small{

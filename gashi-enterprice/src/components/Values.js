@@ -28,7 +28,7 @@ const values = [
 
 const Values = () => {
     return (
-        <section className={'values'}>
+        <div className={'values'}>
             <SectionHeader title={'Values'} className={'values__title'}/>
             <div className={'container values__container'}>
                 <div className="values__left">
@@ -51,7 +51,7 @@ const Values = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 export default Values

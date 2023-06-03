@@ -4,7 +4,7 @@ import logo from "../assets/logo-11.png";
 
 const ServiceInfo = () => {
     return (
-        <div style={{backgroundImage: `url(${logo})`,backgroundRepeat:"no-repeat",backgroundSize:"20rem",backgroundPositionX:'1rem'}}>
+        <div style={{backgroundImage: `url(${logo})`,backgroundRepeat:"no-repeat",backgroundSize:"19rem",backgroundPositionX:'1rem'}}>
             <Card className={'service_info-card'}>
                 <div className="quick-info">
                     <div className="location-info">

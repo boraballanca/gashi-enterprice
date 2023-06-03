@@ -1,5 +1,5 @@
 import './styles/about.css'
-import Services from "../components/Services";
+import Work from "../components/Work";
 import Values from "../components/Values";
 import Reviews from "../components/Reviews";
 
@@ -8,7 +8,7 @@ import Reviews from "../components/Reviews";
 const About = () => {
     return (
         <>
-            <Services/>
+            <Work/>
             <Values/>
             <Reviews/>
         </>

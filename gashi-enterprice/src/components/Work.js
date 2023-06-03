@@ -67,9 +67,9 @@ export const works = [
     },
 ]
 
-const Services = () => {
+const Work = () => {
     return (
-        <section className='work'>
+        <div className='work'>
             <div className="container work_container">
                 <SectionHeader className={'work__header'}
                                title={'Services'}
@@ -86,8 +86,8 @@ const Services = () => {
                     })}
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 
-export default Services
+export default Work

@@ -8,18 +8,20 @@ import Footer from './pages/Footer'
 import Contact from "./pages/Contact";
 import FAQs from "./components/FAQs";
 import ServiceForm from "./pages/ServiceForm"
+import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (
 
     <BrowserRouter>
         <Navbar/>
-      <Routes>
+        <ScrollToTop/>
+        <Routes>
         <Route index element={<Home/>}/>
           <Route path={'about'} element={<About/>}></Route>
-          <Route path={'gallery'} element={<Gallery/>}></Route>
+          <Route path={'our-work'} element={<Gallery/>}></Route>
           <Route path={'contact'} element={<Contact/>}></Route>
           <Route path={'faqs'} element={<FAQs/>}></Route>
-          <Route path={'service'} element={<ServiceForm/>}></Route>
+          <Route path={'services'} element={<ServiceForm/>}></Route>
       </Routes>
         <Footer/>
     </BrowserRouter>

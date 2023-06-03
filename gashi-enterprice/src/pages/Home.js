@@ -10,8 +10,8 @@ const Home = () => {
         <>
             <HomeHeader
                 image={Construction}
-                title={'A full-service construction company'}
-                content={'With a team of professionals, we offer painting, tile flooring, 3D architecture design, plumbing, heating and cooling services'}
+                title={'Full-service construction company'}
+                content={'A young and dynamic company that specializes in providing residential construction and renovation services to clients in the United States.'}
             />
             <HomeInfo
                 image={Gashi}

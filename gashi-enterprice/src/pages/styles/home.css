@@ -1,20 +1,15 @@
 /*================================================================HomeHeader*/
 
-.header__image-wrapper {
-    margin-top: 5rem;
-    /*width: 125%;*/
+.header__container {
+    width: 100%;
     height: 30rem;
     overflow: hidden;
 }
 
-.header__container {
-    width: 100%;
+.header__image-wrapper {
     position: relative;
     display: grid;
     place-items: center;
-    align-content: center;
-    align-items: center;
-    justify-items: center;
 }
 
 .header__container-bg {
@@ -23,9 +18,6 @@
     display: grid;
     place-items: center;
     width: 130vw;
-    justify-content: end;
-    justify-items: center;
-
 }
 
 .header__container-bg img {
@@ -34,19 +26,16 @@
 
 .header__card-wrapper{
     margin-top: -14rem;
-    margin-left: 11rem;
+    margin-left: 12rem;
     padding-top: 4rem;
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 3rem;
     position: relative;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
 }
 
 .header__card{
     background: var(--color-red);
-    opacity: 1;
     transition: var(--transition);
 }
 
@@ -55,39 +44,14 @@
     transition: var(--transition);
 }
 /*=================================HomeInfo*/
-.home__info {
-    width: 100vw;
-    height: calc(100vh - 3rem);
-    display: grid;
-    place-items: center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+.home__info{
+    margin: 4rem;
 }
-
 .home__info-container {
-    height: 100%;
     display: grid;
-    margin-top: 5rem;
-    /*flex-direction: column;*/
-    justify-content: space-between;
-    /*gap: 6rem;*/
-    position: absolute;
-    /*text-align: center;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 }
-
-.home__info-wrapper{
-    height: 100%;
-    display: grid;
-    margin-bottom: 24rem;
-    align-items: stretch;
-    justify-content: space-between;
-    /*gap: 6rem;*/
-    margin-inline:auto;
-}
-
 .home__info-content h2 {
     margin-bottom: 1rem;
     color: var(--color-red);
@@ -97,35 +61,28 @@
 }
 
 .home__info-content p {
-    margin: 1rem 10rem 3.5rem;
+    margin: 1rem 0% 3.5rem;
     font-size: 1.1rem;
     text-align: justify;
 }
 
 .home__info-visuals {
     display: grid;
-    place-items: center;
     position: relative;
-    margin-top: -15rem;
 }
 
 .home__header-logo {
     display: flex;
-    /*width: 200vh;*/
-    /*height: 120vh;*/
-    position: absolute;
-    transition: var(--transition);
     flex-direction: column;
-    /*align-content: center;*/
     align-items: center;
+    transition: var(--transition);
 }
 
 /*================================SERVICES*/
 .home__services {
-    margin-top: 3rem;
-    padding-top: 3rem;
-    margin-bottom: 3rem;
-
+    display: grid;
+    place-items: center;
+    margin: 4rem;
 }
 
 .home__services-wrapper {
@@ -140,7 +97,6 @@
 }
 .home__services-wrapper img{
     border-radius:0.5rem ;
-    box-shadow:  0px 0px 15px 2px var(--color-red);
 }
 .home__services-card{
     transition: var(--transition);
@@ -156,53 +112,36 @@
     .header__card-wrapper{
         margin-top: -20rem;
         margin-left: 4rem;
-        padding-top: 4rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 8rem;
-        position: relative;
-    }
-
-    .home__services-container{
-        display: grid;
-        justify-items: center;
-    }
-    .home__services-wrapper{
-        grid-template-columns: 1fr;
-        width: 45vw;
-        gap: 4rem;
     }
 
 }
 @media screen and (max-width: 600px){
 
+    .header__container-bg{
+        transition: var(--transition);
+        position: absolute;
+        display: grid;
+        place-items: center;
+        width: 250vw;
+    }
     .header__card-wrapper{
-        margin-top: -25rem;
+        margin-top: -22rem;
         margin-left: 2rem;
         padding-top: 3rem;
-        /*width: 65vh;*/
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 8rem;
-        position: relative;
+        /*width: 140vh;*/
     }
 
-    .home__header-logo{
-        display: none;
-        /*width: 50%;*/
-        /*width: 190vh;*/
-        /*height: 120vh;*/
-    }
     .home__services-container{
-        margin-top: -20rem;
         display: grid;
         justify-content: center;
         justify-items: center;
     }
+
     .home__services-wrapper{
-        /*display: grid;*/
         grid-template-columns: 1fr;
-        width: 45vw;
+        width: 60vw;
         gap: 4rem;
     }
 

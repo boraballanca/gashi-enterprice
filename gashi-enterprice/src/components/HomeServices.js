@@ -19,7 +19,7 @@ export const images = [
 ]
 const HomeServices = () => {
     return (
-        <section className='home__services'>
+        <div className='home__services'>
             <div className="container home__services-container">
                 <SectionHeader className={'home__services-header'}
                                title={'What we do'}
@@ -35,7 +35,7 @@ const HomeServices = () => {
                 </div>
             </div>
 
-        </section>
+        </div>
     )
 }
 export default HomeServices
