@@ -12,6 +12,12 @@ import Post8 from '../assets/post-07.jpeg'
 import Post11 from '../assets/post-11.jpg'
 import Post12 from '../assets/post-12.jpg'
 import Post13 from '../assets/post-13.jpg'
+import demolition_1 from '../assets/gallery_image_demolition_1.jpg'
+import demolition_2 from '../assets/gallery_image_demolition_2.jpg'
+import demolition_3 from '../assets/gallery_image_demolition_3.jpg'
+import demolition_4 from '../assets/gallery_image_demolition_4.jpg'
+import plumbing_before from '../assets/gallery_image_plumbing_before.jpg'
+import plumbing_after from '../assets/gallery_image_plumbing_after.jpg'
 
 import SlideshowImages from "../components/SlideshowImages";
 
@@ -30,6 +36,24 @@ const architectureImages = [
     },
 ]
 
+const demolition_process = [
+    {
+        id: 1,
+        image: demolition_1,
+    },
+    {
+        id: 2,
+        image: demolition_2,
+    },
+    {
+        id: 3,
+        image: demolition_3,
+    },
+    {
+        id: 4,
+        image: demolition_4,
+    },
+]
 const project_1 = [
     {
         id: 1,
@@ -64,7 +88,17 @@ const Gallery = () => {
             <section className='services'>
                 <div className="container gallery__container">
                     <SectionHeader className={'gallery__header'}
-                                   title={'Our work'}/>
+                                   title={'Different Projects | Our Work'}/>
+                    <h2>Work process</h2>
+                    <div className="work__process">
+
+                        <div className="work_process-left">
+                            <SlideshowImages className={'work__process-images'} slideImages={project_1}/>
+                        </div>
+                        <div className="work_process-right">
+                            <SlideshowImages className={'work__process-images'} slideImages={project_2}/>
+                        </div>
+                    </div>
 
                     <div className="slideshow__content demolition__service">
                         <div className="slideshow__content-left">
@@ -76,7 +110,7 @@ const Gallery = () => {
                                 ensure a durable and long-lasting result</p>
                         </div>
                         <div className="slideshow__content-right">
-                            <SlideshowImages className={'demolition__images'} slideImages={project_1}/>
+                            <SlideshowImages className={'demolition__images'} slideImages={demolition_process}/>
                         </div>
                     </div>
 
@@ -85,8 +119,8 @@ const Gallery = () => {
                             <ReactCompareImage
                                 hover={false}
                                 vertical={false}
-                                leftImage={Post4}
-                                rightImage={Post5}
+                                leftImage={plumbing_before}
+                                rightImage={plumbing_after}
                             />
                         </div>
                         <div className="before__after-right">
@@ -95,20 +129,6 @@ const Gallery = () => {
                                 including installation, repair, and maintenance. Our team of skilled
                                 plumbers can tackle any job, from fixing a leaky faucet to installing
                                 a new sewer line.</p>
-                        </div>
-                    </div>
-
-                    <div className="slideshow__content demolition__service">
-                        <div className="slideshow__content-left">
-                            <h2>Demolition services</h2>
-                            <p>In one recent project, we provided painting and tile flooring services for a residential
-                                client. We worked closely with
-                                the client to ensure that their vision was brought to life, and we utilized high-quality
-                                materials to
-                                ensure a durable and long-lasting result</p>
-                        </div>
-                        <div className="slideshow__content-right">
-                            <SlideshowImages className={'demolition__images'} slideImages={project_2}/>
                         </div>
                     </div>
 

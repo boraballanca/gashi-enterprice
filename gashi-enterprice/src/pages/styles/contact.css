@@ -59,20 +59,7 @@
 }
 @media screen and (max-width: 1024px){
 
-    .slideshow__content {
-        display: grid;
-        grid-template-columns: 1fr;
-        /*gap: 5rem;*/
-        /*justify-content: center;*/
-        /*align-items: center;*/
-    }
-    .before__after-content {
-        display: grid;
-        grid-template-columns:1fr;
-        align-items: start;
-        justify-items: center;
-        /*gap: 12%;*/
-    }
+
 }
 @media screen and (max-width: 1200px){
 .contact__details{

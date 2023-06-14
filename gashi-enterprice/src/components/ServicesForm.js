@@ -11,10 +11,16 @@ const ServicesForm = () => {
         interior: false,
         exterior:false,
         dry_wall: false,
-        tiles: false,
         flooring: false,
         heating_cooling: false,
         plumbing: false,
+
+        hardwood:false,
+        laminate:false,
+        vinyl:false,
+        tile: false,
+        concrete:false,
+        bamboo:false,
     })
     const handleCheckboxChange = (checkboxName) => {
         setCheckboxes((prevState) => ({
@@ -113,18 +119,6 @@ const ServicesForm = () => {
                         />
                         Dry Wall Repair
                     </label>
-                    <label htmlFor={'tiles'}>
-                        <input
-                            type="checkbox"
-                            id={'tiles'}
-                            name={'tiles'}
-                            checked={checkboxes.tiles}
-                            onChange={() => {
-                                handleCheckboxChange('tiles')
-                            }}
-                        />
-                        Tiles Installation
-                    </label>
                     <label htmlFor={'flooring'}>
                         <input
                             type="checkbox"
@@ -165,10 +159,93 @@ const ServicesForm = () => {
 
 
                 </div>
-                {(checkboxes.painting || checkboxes.remodeling || checkboxes.architecture ||checkboxes.flooring) && (
-                    <div>
-                        <label htmlFor="">Rooms</label>
+                {(checkboxes.painting || checkboxes.remodeling || checkboxes.dry_wall ||checkboxes.interior) && (
+                    <div className={'options'}>
+                        <label htmlFor="">How many rooms for ?</label>
                         <input type="number" id={'nr_rooms'} min={0} max={10}/>
+                    </div>
+                )}
+                {(checkboxes.flooring) && (
+                    <div className={'options'}>
+                        <label htmlFor="">What type of flooring?</label>
+
+                        <label htmlFor={'hardwood'}>
+                            <input
+                                type="checkbox"
+                                id={'hardwood'}
+                                name={'hardwood'}
+                                checked={checkboxes.hardwood}
+                                onChange={() => {
+                                    handleCheckboxChange('hardwood')
+                                }}
+                            />
+                            Hardwood
+                        </label>
+
+                        <label htmlFor={'laminate'}>
+                            <input
+                                type="checkbox"
+                                id={'laminate'}
+                                name={'laminate'}
+                                checked={checkboxes.laminate}
+                                onChange={() => {
+                                    handleCheckboxChange('laminate')
+                                }}
+                            />
+                            Laminate
+                        </label>
+
+                        <label htmlFor={'vinyl'}>
+                            <input
+                                type="checkbox"
+                                id={'vinyl'}
+                                name={'vinyl'}
+                                checked={checkboxes.vinyl}
+                                onChange={() => {
+                                    handleCheckboxChange('vinyl')
+                                }}
+                            />
+                            Vinyl
+                        </label>
+
+                        <label htmlFor={'tile'}>
+                            <input
+                                type="checkbox"
+                                id={'tile'}
+                                name={'tile'}
+                                checked={checkboxes.tile}
+                                onChange={() => {
+                                    handleCheckboxChange('tile')
+                                }}
+                            />
+                            Tile
+                        </label>
+
+                        <label htmlFor={'concrete'}>
+                            <input
+                                type="checkbox"
+                                id={'concrete'}
+                                name={'concrete'}
+                                checked={checkboxes.concrete}
+                                onChange={() => {
+                                    handleCheckboxChange('concrete')
+                                }}
+                            />
+                            Concrete
+                        </label>
+
+                        <label htmlFor={'bamboo'}>
+                            <input
+                                type="checkbox"
+                                id={'bamboo'}
+                                name={'bamboo'}
+                                checked={checkboxes.bamboo}
+                                onChange={() => {
+                                    handleCheckboxChange('bamboo')
+                                }}
+                            />
+                            Bamboo
+                        </label>
                     </div>
                 )}
 

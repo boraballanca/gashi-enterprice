@@ -12,27 +12,28 @@ const faqs = [
     {
         id: 2,
         question: "How much does one project costs?",
-        answer: "The cost of each project is calculated based on the work needed, the tools, staff and requirements from the client! For more details please contact us through our email or phone number"
+        answer: "The cost of each project is calculated based on the work needed, the tools, staff and requirements from the client! For more details please contact us through our email or phone number, or check our Services page!"
     },
     {
         id: 3,
         question: "How can we get in contact?",
-        answer: "Contact us via email:business@gashienterprise.com or phone number: +1 23 456 789!"
+        answer: "Contact us via email:business@gashienterprise.com or phone number: +1 248 801 3209!"
     },
     {
         id: 4,
-        question: "Where are we located?",
-        answer: "Gashi Enterprise is located in Michigan, US"
+        question: "What is our service area?",
+        answer: "We operate in West Bloomfield Township, Lake Orion, Southfield, Rochester, Birmingham, Franklin, Waterford Township, " +
+            "Clarkston, Farmington, Royal Oak, Drayton Plains, Auburn Hills, White Lake charter Township, Keego Harbor, Pontiac, Union Lake, Clawson, Troy, Bloomfield Hills"
     },
     {
         id: 5,
-        question: "How we work?",
-        answer: "Maiores fuga, cum praesentium esse laudantium! Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui."
+        question: "What sets us apart from other contractors?",
+        answer: "We provide customized solutions, quality craftsmanship, excellent customer service, competitive pricing and innovation "
     },
     {
         id: 6,
-        question: "How long should i wait to start the project?",
-        answer: "Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate."
+        question: "What are we best known for?",
+        answer: " We are best known for High-quality products or services, excellent customer service and corporate social responsibility"
     }
 ]
 

@@ -20,7 +20,7 @@ const ServiceInfo = () => {
                     <p>If you want to get immediate information about our services, please select a service
                         and give us more insights.
                         We will get back to you within 24 hours, or call us everyday from 9:00AM-6:00PM</p>
-                    <h3><BsTelephone/> +1 23 456 789</h3>
+                    <h3><BsTelephone/> +12488013209</h3>
                 </div>
             </Card>
         </div>

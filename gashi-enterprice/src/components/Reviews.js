@@ -45,7 +45,6 @@ const Reviews = () => {
                 />
                 <Card className={'review'}>
                     <div className="card__left">
-                        {/*<img src={logo} alt=""/>*/}
                         <h3>{name}</h3>
                         <small className={'review__title'}>{job}</small>
                     </div>

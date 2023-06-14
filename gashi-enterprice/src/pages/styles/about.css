@@ -27,6 +27,7 @@
 .values__left{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .values__image {
 
@@ -66,26 +67,16 @@
     padding-top: 4rem;
 }
 
-.reviews__head {
-    justify-content: center;
-}
-
 .card.review {
     background: var(--color-antracite);
     color: var(--color-gray);
-    gap: 1.5rem;
-    /*box-shadow:  0px 0px 15px 3px var(--color-red);*/
     display: grid;
-    grid-template-columns: 20% 60%;
-    position: relative;
+    grid-template-columns: 1fr 2fr;
     text-align: justify;
-    margin-top: 5rem;
     transition: var(--transition);
-    justify-content: center;
 }
 
 .review small{
-    padding-bottom: 1rem;
     border-bottom: 2px solid var(--color-antracite);
     transition: var(--transition);
 }
@@ -129,11 +120,8 @@
 }
 
 .review__btn-container {
-    width: fit-content;
-    margin: 2.5rem auto 0;
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 1rem;
 }
 
@@ -154,29 +142,36 @@
     .work__wrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
-        margin-top: 4rem;
-        word-wrap: break-word;
-        /*word-break: break-word;*/
-        overflow-wrap: break-word;
         justify-content: center;
     }
     .values__container {
         display: grid;
-        grid-template-columns: 38% 50%;
-        gap: 12%;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .values__image{
+        display: grid;
+        justify-items: center;
+        width: 70%;
     }
 
     .card.review{
-        width: 70vw;
         display: grid;
-        align-items: center;
-        justify-content: center;
+        grid-template-columns: 1fr;
+    }
+    .card.review p{
+        font-size: inherit;
+    }
+    .card.review h3, .card.review small{
+        text-align: center;
     }
 
 }
 @media screen and (max-width: 600px){
-
+.work__wrapper{
+    margin: 2rem;
+}
 
 
 }

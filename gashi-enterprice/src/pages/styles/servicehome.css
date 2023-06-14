@@ -92,3 +92,11 @@ padding-bottom: 2rem;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
+
+.options{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    align-items: center;
+    gap: 1rem;
+}

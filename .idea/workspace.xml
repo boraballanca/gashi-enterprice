@@ -2,30 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="accb09fc-8b21-49d5-b61d-9999c4f28ac5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/post-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/post-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/post-13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/ScrollToTop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/gallery_image_demolition_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/gallery_image_demolition_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/gallery_image_demolition_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/gallery_image_demolition_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/gallery_image_plumbing_after.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/gallery_image_plumbing_before.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/logo-to-delete.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/HomeHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/HomeHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/HomeServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/HomeServices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/FAQs.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/FAQs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/Reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/Reviews.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/ServiceInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/ServiceInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/Work.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/ServicesForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/ServicesForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/Values.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/Values.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/Gallery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/contact.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/gallery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/servicehome.css" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/servicehome.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +110,14 @@
       <workItem from="1685728502793" duration="2489000" />
       <workItem from="1685743436350" duration="857000" />
       <workItem from="1685828212353" duration="7512000" />
+      <workItem from="1685879000279" duration="244000" />
+      <workItem from="1685879637796" duration="3718000" />
+      <workItem from="1685991130253" duration="4547000" />
+      <workItem from="1686078674224" duration="1214000" />
+      <workItem from="1686424203239" duration="1567000" />
+      <workItem from="1686592804710" duration="2182000" />
+      <workItem from="1686676984689" duration="3518000" />
+      <workItem from="1686775779320" duration="342000" />
     </task>
     <servers />
   </component>

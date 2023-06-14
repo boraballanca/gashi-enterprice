@@ -15,7 +15,7 @@ const Footer=()=>{
                     <Link to={'/'} className={'footer__logo'}>
                         <img src={Logo} alt=""/>
                     </Link>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, repellendus?</p>
+                    <p>Our mission is to help homeowners bring their dream homes to life by providing personalized and customized solutions that are tailored to their needs and budget.</p>
                 <div className="footer__socials">
                     <a href="https://www.facebook.com/GashiEnterprise?mibextid=LQQJ4d" target={'_blank'} rel={'noreferrer noopener'}><FaFacebookF/></a>
                     <a href="https://instagram.com/gashi_enterprise?igshid=YmMyMTA2M2Y=" target={'_blank'} rel={'noreferrer noopener'}><AiFillInstagram/></a>
@@ -35,7 +35,7 @@ const Footer=()=>{
                 </article>
                 <article>
                     <h4>Quick Contact</h4>
-                    <p><BsTelephone/> +1 23 456 789</p>
+                    <p><BsTelephone/> +1 248 801 3209</p>
                     <p><TbPin/>   Troy, Michigan</p>
                     <p><HiOutlineMail/>  business@gashienterprise.com</p>
                 </article>
