@@ -2,23 +2,94 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="accb09fc-8b21-49d5-b61d-9999c4f28ac5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/gallery_image_demolition_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/gallery_image_demolition_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/gallery_image_demolition_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/gallery_image_demolition_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/gallery_image_plumbing_after.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gashi-enterprice/src/assets/gallery_image_plumbing_before.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/architecture design.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/remodel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/tile installation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/FeedbackForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/styles/feedback.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/FAQs.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/FAQs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/Reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/Reviews.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/ServiceInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/ServiceInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/ServicesForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/components/ServicesForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/Gallery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/gallery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/servicehome.css" beforeDir="false" afterPath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/servicehome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/logo192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/logo512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/bathroom-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/bathroom-01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/bathroom-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/bathroom-02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/bathroom-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/bathroom-03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/construction-02.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/construction-02.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/construction-03.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/construction-03.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/construction-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/construction-img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/gallery_image_demolition_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/gallery_image_demolition_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/gallery_image_demolition_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/gallery_image_demolition_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/gallery_image_demolition_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/gallery_image_demolition_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/gallery_image_demolition_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/gallery_image_demolition_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/gallery_image_plumbing_after.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/gallery_image_plumbing_after.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/gallery_image_plumbing_before.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/gallery_image_plumbing_before.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/logo-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/logo-01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/logo-02.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/logo-02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/logo-03.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/logo-03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/logo-04.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/logo-04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/logo-05.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/logo-05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/logo-06.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/logo-06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/logo-07.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/logo-07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/logo-08.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/logo-08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/logo-09.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/logo-09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/logo-10.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/logo-10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/logo-11.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/logo-11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/post-01.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/post-01.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/post-02.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/post-02.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/post-03.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/post-03.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/post-04.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/post-04.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/post-05.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/post-05.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/post-06.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/post-06.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/post-07.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/post-07.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/post-08.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/post-08.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/post-09.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/post-09.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/post-10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/post-10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/post-11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/post-11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/post-12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/post-12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/assets/post-13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/post-13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/BeforeAfterImages.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/BeforeAfterImages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/FAQs.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/FAQs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/HomeHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/HomeHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/HomeInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/HomeInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/HomeServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/HomeServices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/ImageCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ImageCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/Question.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Question.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/Reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Reviews.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/ScrollToTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ScrollToTop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/SectionHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SectionHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/ServiceInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ServiceInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/ServiceLabel.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ServiceLabel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/ServicesForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ServicesForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/SlideshowImages.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SlideshowImages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/Values.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Values.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/components/Work.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Work.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Gallery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/ServiceForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/ServiceForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/styles/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/styles/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/styles/faq.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/styles/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/styles/gallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/styles/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/styles/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gashi-enterprice/src/pages/styles/servicehome.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/styles/servicehome.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +99,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -63,6 +134,7 @@
       <recent name="C:\Users\Admin\OneDrive\Desktop\OneDrive\Documents\GitHub\gashi-enterprice\gashi-enterprice\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\OneDrive\Desktop\OneDrive\Documents\GitHub\gashi-enterprice\client\src\assets" />
       <recent name="C:\Users\Admin\OneDrive\Desktop\OneDrive\Documents\GitHub\gashi-enterprice\gashi-enterprice\src\assets" />
       <recent name="C:\Users\Admin\OneDrive\Desktop\OneDrive\Documents\GitHub\gashi-enterprice\gashi-enterprice\src\pages" />
     </key>
@@ -117,7 +189,16 @@
       <workItem from="1686424203239" duration="1567000" />
       <workItem from="1686592804710" duration="2182000" />
       <workItem from="1686676984689" duration="3518000" />
-      <workItem from="1686775779320" duration="342000" />
+      <workItem from="1686775779320" duration="3410000" />
+      <workItem from="1686863328283" duration="3453000" />
+      <workItem from="1687030522458" duration="592000" />
+      <workItem from="1687287609549" duration="5325000" />
+      <workItem from="1687459263022" duration="17272000" />
+      <workItem from="1687885079361" duration="10300000" />
+      <workItem from="1688078320648" duration="660000" />
+      <workItem from="1688287247795" duration="4674000" />
+      <workItem from="1688316038973" duration="14639000" />
+      <workItem from="1688401028272" duration="882000" />
     </task>
     <servers />
   </component>
