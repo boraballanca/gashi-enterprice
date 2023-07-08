@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom'
 import Logo from '../assets/logo-03.png'
-import {FaLinkedin, FaFacebookF} from "react-icons/fa";
-import {AiOutlineTwitter,AiFillInstagram} from "react-icons/ai";
+import {FaFacebookF} from "react-icons/fa";
+import {AiFillInstagram} from "react-icons/ai";
 import './styles/footer.css'
 import {BsTelephone} from "react-icons/bs";
 import {TbPin} from "react-icons/tb";
@@ -17,8 +17,8 @@ const Footer=()=>{
                     </Link>
                     <p>Our mission is to help homeowners bring their dream homes to life by providing personalized and customized solutions that are tailored to their needs and budget.</p>
                 <div className="footer__socials">
-                    <a href="https://www.facebook.com/GashiEnterprise?mibextid=LQQJ4d" target={'_blank'} rel={'noreferrer noopener'}><FaFacebookF/></a>
-                    <a href="https://instagram.com/gashi_enterprise?igshid=YmMyMTA2M2Y=" target={'_blank'} rel={'noreferrer noopener'}><AiFillInstagram/></a>
+                    <a href="https://www.facebook.com/Gashienterprisellc?mibextid=LQQJ4d" target={'_blank'} rel={'noreferrer noopener'}><FaFacebookF/></a>
+                    <a href="https://instagram.com/gashi.enterprise?igshid=OGQ5ZDc2ODk2ZA==" target={'_blank'} rel={'noreferrer noopener'}><AiFillInstagram/></a>
                 </div>
                 </article>
                 <article>
@@ -33,7 +33,7 @@ const Footer=()=>{
                     <h4>Insights</h4>
                     <Link to={'/our_work'}>Our work</Link>
                     <Link to={'/faqs'}>FAQs</Link>
-                    <Link to={'/service'}>Service Form</Link>
+                    <Link to={'/services'}>Service Form</Link>
                     <Link to={'/feedback'}>Feedback Form</Link>
                 </article>
                 <article>

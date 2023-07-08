@@ -3,6 +3,7 @@ import ImageCard from "./ImageCard";
 import Post1 from '../assets/tile installation.jpg'
 import Post2 from '../assets/architecture design.jpg'
 import Post3 from '../assets/remodel.jpg'
+
 export const images = [
     {
         id: 0,
@@ -27,10 +28,11 @@ const HomeServices = () => {
                 <div className="home__services-wrapper">
                     {
                         images.map(({id, icon}) => {
-                            return (
-                                <ImageCard className={'home__services-card'} key={id} image={icon}/>
-                            )
-                        })
+                                return (
+                                    <ImageCard className={'home__services-card'} key={id} image={icon}/>
+                                )
+                            }
+                        )
                     }
                 </div>
             </div>

@@ -1,12 +1,9 @@
-import {MdOutlinePlumbing, MdOutlineConstruction, MdOutlineArchitecture} from 'react-icons/md'
+import {MdOutlinePlumbing,  MdOutlineArchitecture} from 'react-icons/md'
 import {AiFillFormatPainter,} from 'react-icons/ai'
 import {FaCouch} from 'react-icons/fa'
-
-import {GrUserWorker} from 'react-icons/gr'
 import {GiFloorPolisher,GiPencilRuler,GiStoneWall,GiHeatHaze} from "react-icons/gi";
 import SectionHeader from "./SectionHeader";
 import Card from './Card'
-import {Link} from "react-router-dom";
 
 export const works = [
     {

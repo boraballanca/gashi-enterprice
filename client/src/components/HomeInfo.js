@@ -1,4 +1,3 @@
-
 const HomeInfo = ({image,title,content}) => {
   return(
       <div className={'home__info'}>

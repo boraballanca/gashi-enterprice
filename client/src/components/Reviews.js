@@ -1,10 +1,7 @@
 import {useState} from 'react'
 import SectionHeader from "./SectionHeader";
-import {MdOutlineReviews} from 'react-icons/md'
 import Card from './Card'
-import logo from '../assets/logo-11.png'
 import {AiOutlineLeft, AiOutlineRight} from "react-icons/ai";
-// import { HiOutlineArrowSmLeft, HiOutlineArrowSmRight} from 'react-icons/hi'
 
 const reviews = [
     {

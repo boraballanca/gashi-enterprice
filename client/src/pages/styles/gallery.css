@@ -4,7 +4,6 @@
 }
 
 .gallery__container {
-    /*height: 100%;*/
     display: flex;
     flex-direction: column;
     gap: 6rem;
@@ -21,11 +20,28 @@
 .work__process{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /*width: 80rem;*/
+    gap:8rem;
+}
+.carousel__slideshow{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.architecture__images{
+    height:20rem;
+}
+.slideshow__info{
+    text-align: justify;
+    padding: 0 4rem;
+}
+.slideshow__info h2{
+    text-align: center;
 }
 .slideshow__images {
     display: grid;
-    /*grid-template-columns: 10% 50% 10%;*/
     justify-content: center;
     justify-items: center;
     transition: var(--transition);
@@ -59,26 +75,17 @@
     padding-bottom: 3rem;
 }
 
-.before__after-content {
+.before__after-slideshow {
     display: grid;
-    grid-template-columns: 80% 50%;
-    gap: 5rem;
-    align-items: start;
-    justify-content: end;
-    justify-items: end;
-
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .before__after-left {
-    width: 50%;
-    height: 50%;
-}
-
-.before__after-right {
-    justify-content: space-around;
-    display: flex;
-    flex-direction: column;
-    margin-top: 5rem;
+    width: 25rem;
+    /*height: 50%;*/
 }
 
 .before__after-right h2 {
@@ -86,60 +93,79 @@
     padding-bottom: 3rem;
 }
 
-/*.demolition__images{*/
-/*    display: grid;*/
-/*    !*grid-template-columns: 10% 50% 10%;*!*/
-/*    justify-content: center;*/
-/*    justify-items: center;*/
-/*    transition: var(--transition);*/
-/*}*/
-
-.demolition__service{
-    gap: 3rem;
-}
-.demolition__images > .gallery__image-card{
-    /*width: 70%;*/
-    aspect-ratio: 16/9;
-    transition: ease-in;
-}
-
 @media screen and (max-width: 1024px){
 
-    .slideshow__content {
-        display: grid;
-        grid-template-columns: 1fr;
-        /*gap: 5rem;*/
-        /*justify-content: center;*/
-        /*align-items: center;*/
-    }
-    .before__after-content {
-        display: grid;
-        grid-template-columns:1fr;
-        align-items: start;
-        justify-items: center;
-        /*gap: 12%;*/
-    }
     .work__process{
         display: grid;
         grid-template-columns:1fr;
     }
-    /*.slideshow__content {*/
-    /*    display: grid;*/
-    /*    grid-template-columns: 1fr;*/
-    /*    !*gap: 5rem;*!*/
-    /*    !*justify-content: center;*!*/
-    /*    !*align-items: center;*!*/
-    /*}*/
-    /*.before__after-content {*/
-    /*    display: grid;*/
-    /*    grid-template-columns:1fr;*/
-    /*    align-items: start;*/
-    /*    justify-items: center;*/
-    /*    !*gap: 12%;*!*/
-    /*}*/
+
+    .carousel__slideshow{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+    .before__after-left {
+        width: 30rem;
+    }
+    .before__after-slideshow{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 3rem;
+    }
+    .slideshow__info {
+        text-align: justify;
+        padding: 0px 8rem;
+    }
+
 }
 @media screen and (max-width: 600px){
+    .carousel__slideshow{
+        /*margin-top: 4rem;*/
+        width: 20rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+    .carousel__container {
+        width: 20rem;
+        /*height: 20rem;*/
+    }
+    .before__after-left {
+        width: 20rem;
+    }
 
+    .slideshow__info {
+        text-align: justify;
+        padding: 0px;
+    }
+    .before__after-right{
+        padding: 0px 2rem;
+    }
 
+}
+@media screen and (max-width: 300px){
+    .carousel__slideshow{
+        /*margin-top: 4rem;*/
+        width: 15rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+    .carousel__container {
+        width: 15rem;
+        /*height: 20rem;*/
+    }
+    .before__after-left {
+        width: 15rem;
+    }
+
+    .slideshow__info {
+        text-align: justify;
+        padding: 0px;
+    }
+    .before__after-right{
+        padding: 0px 1rem;
+    }
 
 }

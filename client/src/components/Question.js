@@ -1,17 +1,17 @@
-
-import {AiOutlineUp, AiOutlineDown} from "react-icons/ai";
 import {FiChevronUp, FiChevronDown} from "react-icons/fi";
-
 import {useState} from 'react'
-const Question =({question,answer})=>{
-    const[isAnswerShowing, setIsAnswerShowing]=useState(false)
-    return(
-        <article className={'question'} onClick={()=>{setIsAnswerShowing(prev=>!prev)}}>
+
+const Question = ({question, answer}) => {
+    const [isAnswerShowing, setIsAnswerShowing] = useState(false)
+    return (
+        <article className={'question'} onClick={() => {
+            setIsAnswerShowing(prev => !prev)
+        }}>
             <div>
                 <h4>{question}</h4>
                 <button className="question__icon">
                     {
-                        isAnswerShowing?<FiChevronUp/>:<FiChevronDown/>
+                        isAnswerShowing ? <FiChevronUp/> : <FiChevronDown/>
                     }
                 </button>
             </div>

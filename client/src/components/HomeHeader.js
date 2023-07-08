@@ -1,7 +1,5 @@
 import {Link} from 'react-router-dom'
 import Card from "./Card";
-
-
 const HomeHeader = ({image, title, content}) => {
     return (
         <header className={'home__header'}>
@@ -21,7 +19,6 @@ const HomeHeader = ({image, title, content}) => {
                 </Link>
             </div>
         </header>
-
     )
 }
 export default HomeHeader

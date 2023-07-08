@@ -1,4 +1,3 @@
-// import '../pages/styles/servicehome.css'
 import {useState} from 'react'
 import SectionHeader from "./SectionHeader";
 import axios from 'axios'
@@ -71,7 +70,6 @@ const ServicesForm = () => {
         <>
             <div></div>
             <SectionHeader title={'Our Work'}
-                // preview={'Request more information about our services'}
                            className={'form__header'}/>
 
             <form className={'form__content'}>
@@ -318,7 +316,6 @@ const ServicesForm = () => {
                 <input type="submit" value={'Send'} onClick={() => sendEmail()}/>
             </form>
         </>
-        // </div>
 
     )
 }

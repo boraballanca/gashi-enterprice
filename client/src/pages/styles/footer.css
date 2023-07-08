@@ -87,6 +87,9 @@ footer {
         gap: 4rem;
 
     }
+    .footer__socials{
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -97,6 +100,9 @@ footer {
         gap: 4rem;
     }
 
+    .footer__container article{
+        align-items: center;
+    }
     .footer__container article p {
         text-align: justify;
     }

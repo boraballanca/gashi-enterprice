@@ -2,7 +2,7 @@ import SectionHeader from "./SectionHeader";
 import {FaQuestion} from "react-icons/fa";
 import Question from './Question'
 import '../pages/styles/faq.css'
-import logo from '../assets/logo-11.png'
+
 const faqs = [
     {
         id: 1,
@@ -22,8 +22,7 @@ const faqs = [
     {
         id: 4,
         question: "What is our service area?",
-        answer: "We operate in West Bloomfield Township, Lake Orion, Southfield, Rochester, Birmingham, Franklin, Waterford Township, " +
-            "Clarkston, Farmington, Royal Oak, Drayton Plains, Auburn Hills, White Lake charter Township, Keego Harbor, Pontiac, Union Lake, Clawson, Troy, Bloomfield Hills"
+        answer: "We operate in Auburn Hills, Birmingham, Bloomfield Hills,  Waterford, West Bloomfield , Ann Arbor, Troy , Sterling Heights, Royal Oak,Pontiac."
     },
     {
         id: 5,
@@ -37,16 +36,17 @@ const faqs = [
     }
 ]
 
-const FAQs =()=>{
-    return(
+const FAQs = () => {
+    return (
         <section className={'faqs'}>
-            <div className="container faqs__container" >
-                <SectionHeader icon={<FaQuestion/>} title={'FAQs'} />
+            <div className="container faqs__container">
+                <SectionHeader icon={<FaQuestion/>} title={'FAQs'}/>
                 <div className="faqs__wrapper">
                     {
-                        faqs.map(({id, question,answer})=>{
-                            return <Question key={id} question={question} answer={answer}/>
-                        })
+                        faqs.map(({id, question, answer}) => {
+                                return <Question key={id} question={question} answer={answer}/>
+                            }
+                        )
                     }
                 </div>
             </div>
