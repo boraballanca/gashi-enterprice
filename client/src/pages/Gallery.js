@@ -16,7 +16,7 @@ import demolition_2 from '../assets/gallery_image_demolition_2.jpg'
 import demolition_3 from '../assets/gallery_image_demolition_3.jpg'
 import demolition_4 from '../assets/gallery_image_demolition_4.jpg'
 import plumbing_before from '../assets/plumbing_before.jpg'
-import plumbing_after from '../assets/gallery_image_plumbing_after.jpg'
+import plumbing_after from '../assets/plumbing_after.jpg'
 import {TinyButton as ScrollUpButton} from "react-scroll-up-button";
 import Carousel from "../components/Carousel";
 const architectureImages = [

@@ -1,7 +1,7 @@
 import './styles/home.css'
 import HomeHeader from '../components/HomeHeader'
-import ConstructionMain from "../assets/log.jpg";
 import Gashi from '../assets/logo-10.png'
+import GashiWall from '../assets/gashi home page.png'
 import HomeInfo from "../components/HomeInfo";
 import HomeServices from "../components/HomeServices";
 import {TinyButton as ScrollUpButton} from "react-scroll-up-button";
@@ -13,7 +13,7 @@ const Home = () => {
         <>
             <ScrollUpButton/>
             <HomeHeader
-                image={ConstructionMain}
+                image={GashiWall}
                 title={'Gashi Enterprise LLC'}
                 content={'A young and dynamic company that specializes in providing residential construction and renovation services to clients in the United States.'}
             />

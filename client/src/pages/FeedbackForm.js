@@ -17,7 +17,8 @@ const FeedbackForm = () => {
         expectations: '',
         recommendations: '',
     });
-    const [message, setMessages] = useState('');
+    const [firstHear, setFirstHear] = useState('');
+    const [expectations, setExpectation] = useState('');
     const handleRadioChange = (questionId, option) => {
         setResults((prevState) => ({
             ...prevState,
@@ -33,7 +34,8 @@ const FeedbackForm = () => {
                 customerName,
                 customerNumber,
                 results,
-                message
+                firstHear,
+                expectations
             }).then(() => alert('Email sent successfully!'))
                 .catch(() => alert('Something went wrong, check again!'))
             return;
@@ -190,7 +192,12 @@ const FeedbackForm = () => {
                             <p>
                 <span className="extra-info">
                     <label htmlFor="more">7. What could we improve in order to better live up to your expectations?
-                        <textarea name="message" cols="30" rows="5" onChange={(e) => setMessages(e.target.value)}/>
+                        <textarea name="message" cols="30" rows="5" onChange={(e) => setExpectation(e.target.value)}/>
+                    </label>
+                </span>
+                <span className="extra-info">
+                    <label htmlFor="more">8. Where did you first hear about our company?
+                        <textarea name="message" cols="30" rows="5" onChange={(e) => setFirstHear(e.target.value)}/>
                     </label>
                 </span>
                             </p>

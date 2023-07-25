@@ -2,7 +2,7 @@
 
 .header__container {
     width: 100%;
-    height: 30rem;
+    height: 28rem;
     overflow: hidden;
 }
 
@@ -17,12 +17,12 @@
     position: absolute;
     display: grid;
     place-items: center;
-    width: 130vw;
+    width: 150vw;
 }
 
 .header__card-wrapper{
-    margin-top: -14rem;
-    margin-left: 12rem;
+    margin-top: -8rem;
+    margin-left: 6rem;
     padding-top: 4rem;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -47,7 +47,7 @@
 
 .home__info-container {
     display: grid;
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 .home__info-content h2 {
@@ -171,8 +171,8 @@ width: 100%;
 @media screen and (max-width: 1024px){
 
     .header__card-wrapper{
-        margin-top: -20rem;
-        margin-left: 4rem;
+        margin-top: -15rem;
+        margin-left: 2rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -189,7 +189,8 @@ width: 100%;
         position: absolute;
         display: grid;
         place-items: center;
-        width: 150vh;
+        width: 125vh;
+        height: 35vh;
     }
 }
 @media screen and (max-width: 600px){

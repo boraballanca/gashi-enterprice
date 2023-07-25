@@ -4,7 +4,6 @@ import {FaCouch} from 'react-icons/fa'
 import {GiFloorPolisher,GiPencilRuler,GiStoneWall,GiHeatHaze} from "react-icons/gi";
 import SectionHeader from "./SectionHeader";
 import Card from './Card'
-
 export const works = [
     {
         id: 1,
@@ -63,7 +62,6 @@ export const works = [
         path: "/work/444"
     },
 ]
-
 const Work = () => {
     return (
         <div className='work'>
@@ -86,5 +84,4 @@ const Work = () => {
         </div>
     )
 }
-
 export default Work

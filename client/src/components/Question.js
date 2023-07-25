@@ -1,6 +1,5 @@
 import {FiChevronUp, FiChevronDown} from "react-icons/fi";
 import {useState} from 'react'
-
 const Question = ({question, answer}) => {
     const [isAnswerShowing, setIsAnswerShowing] = useState(false)
     return (

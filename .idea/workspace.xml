@@ -2,47 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="accb09fc-8b21-49d5-b61d-9999c4f28ac5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/assets/home-page-image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/log.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/plumbing_before.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/view1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/view2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/view3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/HomeNavigate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/styles/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/gashi home page.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/construction-02.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/construction-03.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/construction-img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/BeforeAfterImages.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/HomeLocation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/FAQs.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/FAQs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/FeedbackTable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/HomeHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/HomeHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/HomeInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/HomeInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/HomeServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/HomeServices.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ImageCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ImageCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/gallery_image_plumbing_after.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/plumbing_after.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/gallery_image_plumbing_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/home-page-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/log.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Question.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Question.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Reviews.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SectionHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SectionHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ServiceLabel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ScrollToTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ScrollToTop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ServiceInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ServiceInfo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/ServicesForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ServicesForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SlideshowImages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Values.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Values.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Work.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Work.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/FeedbackForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/FeedbackForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Gallery.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/styles/feedback.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/styles/feedback.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/styles/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/styles/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/styles/contact.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/styles/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/styles/gallery.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/styles/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/styles/servicehome.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/styles/servicehome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/styles/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/styles/navbar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,20 +49,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/OneDrive/Desktop/OneDrive/Documents/GitHub/gashi-enterprice/gashi-enterprice/src/assets&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Admin/OneDrive/Desktop/OneDrive/Documents/GitHub/gashi-enterprice/client/src/assets",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\OneDrive\Desktop\OneDrive\Documents\GitHub\gashi-enterprice\client\src\assets" />
       <recent name="C:\Users\Admin\OneDrive\Desktop\OneDrive\Documents\GitHub\gashi-enterprice\gashi-enterprice\src\assets" />
       <recent name="C:\Users\Admin\OneDrive\Desktop\OneDrive\Documents\GitHub\gashi-enterprice\gashi-enterprice\public" />
     </key>
@@ -154,7 +134,10 @@
       <workItem from="1688316038973" duration="14639000" />
       <workItem from="1688401028272" duration="18479000" />
       <workItem from="1688758046903" duration="8562000" />
-      <workItem from="1688799985609" duration="21156000" />
+      <workItem from="1688799985609" duration="23026000" />
+      <workItem from="1689110466414" duration="1131000" />
+      <workItem from="1689536848714" duration="1736000" />
+      <workItem from="1690102441830" duration="5311000" />
     </task>
     <servers />
   </component>

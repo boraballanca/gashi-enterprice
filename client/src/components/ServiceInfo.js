@@ -1,7 +1,6 @@
 import {BsTelephone} from "react-icons/bs";
 import Card from "./Card";
 import logo from "../assets/logo-11.png";
-
 const ServiceInfo = () => {
     return (
         <div style={{backgroundImage: `url(${logo})`,backgroundRepeat:"no-repeat",backgroundSize:"19rem",backgroundPositionX:'1rem'}}>

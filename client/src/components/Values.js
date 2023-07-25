@@ -1,8 +1,6 @@
 import Logo from '../assets/post-04.jpeg'
 import SectionHeader from "./SectionHeader";
 import Card from "./Card";
-
-
 const values = [
     {
         id: 1,
@@ -25,7 +23,6 @@ const values = [
         desc: "We adhere to ethical standards, honest and transparent business deals."
     }
 ]
-
 const Values = () => {
     return (
         <div className={'values'}>

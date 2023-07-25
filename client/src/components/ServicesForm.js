@@ -9,8 +9,8 @@ const ServicesForm = () => {
     const [service, setService] = useState([]);
     const [rooms, setRooms] = useState(0);
     const [flooring, setFlooring] = useState([]);
+    const [cleaning, setCleaning] = useState([]);
     const [message, setMessages] = useState('');
-
     function sendEmail() {
         if (recipient_email && customerName && customerNumber) {
             axios.post('http://localhost:5000/send_email', {
@@ -20,6 +20,7 @@ const ServicesForm = () => {
                 service,
                 rooms,
                 flooring,
+                cleaning,
                 message
             }).then(() => alert('Email sent successfully!'))
                 .catch(() => alert('Something went wrong, check again!'))
@@ -27,7 +28,6 @@ const ServicesForm = () => {
         }
         return alert('Please fill in all required fields!')
     }
-
     const [checkboxes, setCheckboxes] = useState({
         remodeling: false,
         architecture: false,
@@ -38,18 +38,20 @@ const ServicesForm = () => {
         flooring: false,
         heating_cooling: false,
         plumbing: false,
+        cleaning: false,
         hardwood: false,
         laminate: false,
         vinyl: false,
         tile: false,
         concrete: false,
         bamboo: false,
+        residential: false,
+        commercial: false,
     })
     const handleCheckboxChange = (checkboxName) => {
         setCheckboxes((prevState) => ({
             ...prevState,
             [checkboxName]: !prevState[checkboxName],
-
         }));
     };
     const handleServices = (checked, serviceName) => {
@@ -64,6 +66,13 @@ const ServicesForm = () => {
             setFlooring((prevState) => [...prevState, flooringName])
         } else {
             setFlooring((prevState) => prevState.filter((item) => item !== flooringName))
+        }
+    };
+    const handleCleaning = (checked, cleaning) => {
+        if (checked) {
+            setCleaning((prevState) => [...prevState, cleaning])
+        } else {
+            setCleaning((prevState) => prevState.filter((item) => item !== cleaning))
         }
     };
     return (
@@ -209,6 +218,20 @@ const ServicesForm = () => {
                         />
                         Plumbing
                     </label>
+                    <label htmlFor={'cleaning'} className={'main_options'}>
+                        <input
+                            type="checkbox"
+                            id={'cleaning'}
+                            name={'cleaning'}
+                            checked={checkboxes.cleaning}
+                            onChange={() => {
+                                handleCheckboxChange('cleaning')
+                                handleServices(!checkboxes.cleaning, 'Cleaning Service')
+                            }}
+
+                        />
+                        Cleaning Service
+                    </label>
                 </div>
                 {(checkboxes.painting || checkboxes.remodeling || checkboxes.dry_wall || checkboxes.interior) && (
                     <div className={'options'} className={'room_options'}>
@@ -310,13 +333,45 @@ const ServicesForm = () => {
                     </>
                 )}
 
+                {(checkboxes.cleaning) && (
+                    <>
+                        <h4>What type of cleaning service?</h4>
+                        <div className="options">
+                            <label htmlFor={'residential'} className={'other_options'}>
+                                <input
+                                    type="checkbox"
+                                    id={'residential'}
+                                    name={'residential'}
+                                    checked={checkboxes.residential}
+                                    onChange={() => {
+                                        handleCheckboxChange('residential')
+                                        handleCleaning(!checkboxes.residential, 'Residential')
+                                    }}
+                                />
+                                Residential
+                            </label>
+                            <label htmlFor={'commercial'} className={'other_options'}>
+                                <input
+                                    type="checkbox"
+                                    id={'commercial'}
+                                    name={'commercial'}
+                                    checked={checkboxes.commercial}
+                                    onChange={() => {
+                                        handleCheckboxChange('commercial')
+                                        handleCleaning(!checkboxes.commercial, 'Commercial')
+                                    }}
+                                />
+                                Commercial
+                            </label>
+                        </div>
+                    </>
+                )}
                 <label>Message</label>
                 <textarea name="message" cols="30" rows="5" placeholder={'Please give us more details!'}
                           onChange={(e) => setMessages(e.target.value)}/>
                 <input type="submit" value={'Send'} onClick={() => sendEmail()}/>
             </form>
         </>
-
     )
 }
 export default ServicesForm

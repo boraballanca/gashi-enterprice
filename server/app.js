@@ -5,11 +5,8 @@ const nodemailer = require('nodemailer');
 const app = express();
 const port = process.env.PORT || 5000;
 
-// const email='info@gashienterprise.com';
-// const app_pass='npkyiqqjbzykjstd';
-
-const email='boraballanca40@gmail.com';
-const app_pass='gpouucuicttawjoq';
+const email='info@gashienterprise.com';
+const app_pass='npkyiqqjbzykjstd';
 
 app.use(cors())
 app.use(express.json({limit: '25mb'}));
@@ -19,7 +16,7 @@ app.use((req, res, next) => {
     next();
 })
 
-function sendEmail({recipient_email, customerName,customerNumber, service, rooms, flooring, message}) {
+function sendEmail({recipient_email, customerName,customerNumber, service, rooms, flooring,cleaning, message}) {
     return new Promise((resolve, reject) => {
         let transporter = nodemailer.createTransport({
             service: 'gmail',
@@ -46,6 +43,7 @@ function sendEmail({recipient_email, customerName,customerNumber, service, rooms
                             <p><strong>Service:</strong> ${service}</p>
                             <p><strong>Number of rooms:</strong> ${rooms !== 0 ? rooms : 'No number specified'}</p>
                             <p><strong>Flooring type:</strong> ${flooring !== '' ? flooring : 'No flooring specified'}.</p>
+                            <p><strong>Cleaning Service:</strong> ${cleaning !== '' ? cleaning : 'No cleaning service specified'}.</p>
                             <p><strong>Message:</strong>${message}.</p>
                           </body>
                         </html>`,
@@ -60,7 +58,7 @@ function sendEmail({recipient_email, customerName,customerNumber, service, rooms
 
     })
 }
-function sendFeedback({recipient_email, customerName,customerNumber,message,results}) {
+function sendFeedback({recipient_email, customerName,customerNumber,results,expectations,firstHear}) {
     return new Promise((resolve, reject) => {
         let transporter = nodemailer.createTransport({
             service: 'gmail',
@@ -90,7 +88,9 @@ function sendFeedback({recipient_email, customerName,customerNumber,message,resu
                             <p><strong>4. What is your satisfaction with the quality of the work as a customer?</strong> ${results.satisfaction}</p>
                             <p><strong>5. Did we meet your expectations?</strong> ${results.expectations}</p>
                             <p><strong>6. Would you recommend our product/service to other people?</strong> ${results.recommendations}</p>
-                            <p><strong>7. What could we improve in order to better live up to your expectations?</strong> ${message}</p>
+                            <p><strong>7. What could we improve in order to better live up to your expectations?</strong> ${expectations}</p>
+                            <p><strong>8. Where did you first hear about our company?</strong> ${firstHear}</p>
+                            
                           </body>
                         </html>`,
         }
