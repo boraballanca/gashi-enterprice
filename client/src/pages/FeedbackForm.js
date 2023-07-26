@@ -29,7 +29,7 @@ const FeedbackForm = () => {
 
     function sendFeedback() {
         if (recipient_email && customerName && customerNumber && results) {
-            axios.post('http://localhost:5000/send_feedback', {
+            axios.post('/send_feedback', {
                 recipient_email,
                 customerName,
                 customerNumber,

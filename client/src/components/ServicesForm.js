@@ -13,7 +13,7 @@ const ServicesForm = () => {
     const [message, setMessages] = useState('');
     function sendEmail() {
         if (recipient_email && customerName && customerNumber) {
-            axios.post('http://localhost:5000/send_email', {
+            axios.post('/send_email', {
                 recipient_email,
                 customerName,
                 customerNumber,
