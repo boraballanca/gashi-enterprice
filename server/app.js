@@ -1,3 +1,4 @@
+require('dotenv').config()
 const {response} = require('express');
 const express = require('express');
 const cors = require('cors');
@@ -5,10 +6,10 @@ const nodemailer = require('nodemailer');
 const app = express();
 const port = process.env.PORT || 5000;
 
-const email='info@gashienterprise.com';
-const app_pass='npkyiqqjbzykjstd';
+const email=process.env.EMAIL
+const app_pass=process.env.APP_PASS;
 
-app.use(cors())
+app.use(cors({origin:['http://localhost:3000','https://gashienterprise.com']}))
 app.use(express.json({limit: '25mb'}));
 app.use(express.urlencoded({limit: '25mb'}));
 app.use((req, res, next) => {
