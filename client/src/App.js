@@ -18,12 +18,12 @@ function App() {
         <ScrollToTop/>
         <Routes>
         <Route index element={<Home/>}/>
-          <Route path={'about'} element={<About/>}></Route>
-          <Route path={'our-work'} element={<Gallery/>}></Route>
-          <Route path={'contact'} element={<Contact/>}></Route>
-          <Route path={'faqs'} element={<FAQs/>}></Route>
-          <Route path={'services'} element={<ServiceForm/>}></Route>
-          <Route path={'feedback'} element={<FeedbackForm/>}></Route>
+          <Route path={'/about'} element={<About/>}></Route>
+          <Route path={'/our-work'} element={<Gallery/>}></Route>
+          <Route path={'/contact'} element={<Contact/>}></Route>
+          <Route path={'/faqs'} element={<FAQs/>}></Route>
+          <Route path={'/services'} element={<ServiceForm/>}></Route>
+          <Route path={'/feedback'} element={<FeedbackForm/>}></Route>
       </Routes>
         <Footer/>
     </BrowserRouter>
