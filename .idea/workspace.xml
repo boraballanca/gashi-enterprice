@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="accb09fc-8b21-49d5-b61d-9999c4f28ac5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/server/utils/sendEmail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/utils/sendFeedback.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/ServicesForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ServicesForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/FeedbackForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/FeedbackForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
@@ -126,6 +131,9 @@
       <workItem from="1690102441830" duration="5311000" />
       <workItem from="1690394711077" duration="7269000" />
       <workItem from="1691008430637" duration="4430000" />
+      <workItem from="1691030282061" duration="184000" />
+      <workItem from="1691517387030" duration="4501000" />
+      <workItem from="1691605146814" duration="8206000" />
     </task>
     <servers />
   </component>

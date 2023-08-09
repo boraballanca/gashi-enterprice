@@ -2,6 +2,12 @@ import {useState} from 'react'
 import SectionHeader from "./SectionHeader";
 import axios from 'axios'
 
+const isDevelopment=process.env.NODE_ENV==='development';
+const baseURL = isDevelopment
+    ? 'http://localhost:5000'
+    : process.env.API_BASE_URL;
+
+const instance=axios.create({baseURL});
 const ServicesForm = () => {
     const [recipient_email, setEmail] = useState('');
     const [customerName, setCustomerName] = useState('');
@@ -13,7 +19,9 @@ const ServicesForm = () => {
     const [message, setMessages] = useState('');
     function sendEmail() {
         if (recipient_email && customerName && customerNumber) {
-            axios.post('/send_email', {
+            const subject=service.join(' | ')
+            instance.post('/send_email', {
+                subject,
                 recipient_email,
                 customerName,
                 customerNumber,
@@ -81,7 +89,7 @@ const ServicesForm = () => {
             <SectionHeader title={'Our Work'}
                            className={'form__header'}/>
 
-            <form className={'form__content'}>
+            <form className={'form__content'} onSubmit={sendEmail}>
                 <div className="user_info">
                     <label htmlFor="name">First & Last Name* :
                         <input type="text" name={'user_name'} required
@@ -369,7 +377,7 @@ const ServicesForm = () => {
                 <label>Message</label>
                 <textarea name="message" cols="30" rows="5" placeholder={'Please give us more details!'}
                           onChange={(e) => setMessages(e.target.value)}/>
-                <input type="submit" value={'Send'} onClick={() => sendEmail()}/>
+                <input type="submit" value={'Send'}/>
             </form>
         </>
     )

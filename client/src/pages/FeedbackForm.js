@@ -4,7 +4,12 @@ import axios from "axios";
 import SectionHeader from "../components/SectionHeader";
 import {TinyButton as ScrollUpButton} from "react-scroll-up-button";
 
+const isDevelopment=process.env.NODE_ENV==='development';
+const baseURL = isDevelopment
+    ? 'http://localhost:5000'
+    : process.env.API_BASE_URL;
 
+const instance=axios.create({baseURL});
 const FeedbackForm = () => {
     const [recipient_email, setEmail] = useState('');
     const [customerName, setCustomerName] = useState('');
@@ -18,7 +23,7 @@ const FeedbackForm = () => {
         recommendations: '',
     });
     const [firstHear, setFirstHear] = useState('');
-    const [expectations, setExpectation] = useState('');
+    const [improvements, setImprovements] = useState('');
     const handleRadioChange = (questionId, option) => {
         setResults((prevState) => ({
             ...prevState,
@@ -29,13 +34,24 @@ const FeedbackForm = () => {
 
     function sendFeedback() {
         if (recipient_email && customerName && customerNumber && results) {
-            axios.post('/send_feedback', {
+            const quality=results.quality
+            const value=results.value
+            const deadlines=results.deadlines
+            const satisfaction=results.satisfaction
+            const expectations=results.expectations
+            const recommendations=results.recommendations
+            instance.post('/send_feedback', {
                 recipient_email,
                 customerName,
                 customerNumber,
-                results,
+                quality,
+                value,
+                deadlines,
+                satisfaction,
+                expectations,
+                recommendations,
                 firstHear,
-                expectations
+                improvements
             }).then(() => alert('Email sent successfully!'))
                 .catch(() => alert('Something went wrong, check again!'))
             return;
@@ -53,7 +69,7 @@ const FeedbackForm = () => {
                                    preview={'Help us improve by giving your thoughts!'}
                                    className={'feedback-header'}/>
 
-                    <form className={'feedback_content'}>
+                    <form className={'feedback_content'} onSubmit={sendFeedback}>
                         <div className="user_info">
                             <label htmlFor="name">First & Last Name* :
                                 <input type="text" name={'user_name'} required
@@ -192,7 +208,7 @@ const FeedbackForm = () => {
                             <p>
                 <span className="extra-info">
                     <label htmlFor="more">7. What could we improve in order to better live up to your expectations?
-                        <textarea name="message" cols="30" rows="5" onChange={(e) => setExpectation(e.target.value)}/>
+                        <textarea name="message" cols="30" rows="5" onChange={(e) => setImprovements(e.target.value)}/>
                     </label>
                 </span>
                 <span className="extra-info">
@@ -203,7 +219,7 @@ const FeedbackForm = () => {
                             </p>
                         </div>
                         <div className={'submit-button'}>
-                            <input type="submit" value={'Send'} onClick={() => sendFeedback()}/>
+                            <input type="submit" value={'Send'}/>
                         </div>
 
 
