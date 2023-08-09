@@ -13,7 +13,7 @@ import FeedbackForm from "./pages/FeedbackForm";
 function App() {
   return (
 
-    <BrowserRouter>
+    <HashRouter>
         <Navbar/>
         <ScrollToTop/>
         <Routes>
@@ -26,7 +26,7 @@ function App() {
           <Route path={'/feedback'} element={<FeedbackForm/>}></Route>
       </Routes>
         <Footer/>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
