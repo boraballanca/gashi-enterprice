@@ -20,7 +20,7 @@ const ServicesForm = () => {
     function sendEmail() {
         if (recipient_email && customerName && customerNumber) {
             const subject=service.join(' | ')
-            instance.post('/send_email', {
+            instance.post('https://gashi-enterprise-api.onrender.com/send_email', {
                 subject,
                 recipient_email,
                 customerName,

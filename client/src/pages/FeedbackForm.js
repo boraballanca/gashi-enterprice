@@ -40,7 +40,7 @@ const FeedbackForm = () => {
             const satisfaction=results.satisfaction
             const expectations=results.expectations
             const recommendations=results.recommendations
-            instance.post('/send_feedback', {
+            instance.post('https://gashi-enterprise-api.onrender.com/send_feedback', {
                 recipient_email,
                 customerName,
                 customerNumber,
