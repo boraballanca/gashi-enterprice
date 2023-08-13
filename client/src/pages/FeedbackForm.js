@@ -32,8 +32,9 @@ const FeedbackForm = () => {
         console.log('results', results)
     }
 
-    function sendFeedback() {
+    function sendFeedback(e) {
         if (recipient_email && customerName && customerNumber && results) {
+            e.preventDefault()
             const quality=results.quality
             const value=results.value
             const deadlines=results.deadlines

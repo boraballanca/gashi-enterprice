@@ -17,8 +17,9 @@ const ServicesForm = () => {
     const [flooring, setFlooring] = useState([]);
     const [cleaning, setCleaning] = useState([]);
     const [message, setMessages] = useState('');
-    function sendEmail() {
+    function sendEmail(e) {
         if (recipient_email && customerName && customerNumber) {
+            e.preventDefault()
             const subject=service.join(' | ')
             instance.post('https://gashi-enterprise-api.onrender.com/send_email', {
                 subject,
